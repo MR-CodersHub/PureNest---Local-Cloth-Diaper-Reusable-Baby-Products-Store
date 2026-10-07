@@ -457,7 +457,6 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('purenest_theme', next);
     } catch (e) {}
     updateThemeUI(next);
-    showToast(next === 'dark' ? 'Dark mode enabled' : 'Light mode enabled', next === 'dark' ? 'fa-solid fa-moon' : 'fa-solid fa-sun');
   }
 
   const initialTheme = (function() {
@@ -510,7 +509,6 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('purenest_direction', next);
     } catch (e) {}
     updateRtlUI(next);
-    showToast(next === 'rtl' ? 'RTL layout enabled' : 'LTR layout enabled', 'fa-solid fa-right-left');
   }
 
   const initialDir = (function() {
