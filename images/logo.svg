@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <!-- Cloud & Sprout Icon -->
+  <g transform="translate(4, 4)">
+    <!-- Soft Cloud Nest Background -->
+    <path d="M42 46C47.5 46 52 41.5 52 36C52 31.8 49.4 28.2 45.7 26.7C45.9 25.8 46 24.9 46 24C46 16.3 39.7 10 32 10C26.1 10 21.1 13.7 19.1 18.9C17.8 18.3 16.5 18 15 18C9.5 18 5 22.5 5 28C5 28.7 5.1 29.4 5.3 30.1C2.2 31.9 0 35.2 0 39C0 44.5 4.5 49 10 49L42 49C44.8 49 48 47.5 48 44.5" fill="#E8F4FD" stroke="#74B9E7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Sprout / Leaf Growing in Nest -->
+    <path d="M26 44C26 31 34 23 44 21C44 31 36 41 26 44Z" fill="#7CD5C8" opacity="0.9"/>
+    <path d="M26 44C26 35 20 28 12 29C12 37 18 43 26 44Z" fill="#9ED8A7"/>
+    <path d="M26 44V29" stroke="#3D8B63" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Little Safety Pin / Cloth Diaper Snap Accent -->
+    <circle cx="21" cy="40" r="2.5" fill="#FFB085"/>
+    <circle cx="31" cy="40" r="2.5" fill="#FFB085"/>
+  </g>
+  
+  <!-- Text: PureNest -->
+  <text x="68" y="34" font-family="'Quicksand', 'Nunito', 'Segoe UI', sans-serif" font-weight="700" font-size="25" fill="#203A45" letter-spacing="-0.5">PureNest</text>
+  <text x="69" y="49" font-family="'Nunito', 'Segoe UI', sans-serif" font-weight="600" font-size="10.5" fill="#58A6DF" letter-spacing="2">ECO BABY REUSABLES</text>
+  
+  <!-- Little Sprout Heart -->
+  <circle cx="178" cy="22" r="3" fill="#9ED8A7"/>
+</svg>

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The PureNest Reusable Baby Products Journal. Expert guides on cloth diapers, washable bamboo wipes, building baby care kits, saving money, and laundry advice.">
+  <title>The Reusable Parenting Journal — PureNest Eco Baby</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── TOP ANNOUNCEMENT BAR ─── -->
+  <div class="top-announcement">
+    <div class="top-announcement-inner">
+      <div class="top-announcement-perks">
+        <span><i class="fa-solid fa-newspaper" style="color: #58A6DF;"></i> The Reusable Parenting Journal — Real Advice for Eco-Minded Families</span>
+      </div>
+      <div class="top-announcement-contact">
+        <span><i class="fa-solid fa-download" style="font-size: 0.8rem; color: #5BB381;"></i> Free Printable Wash Routine PDF Available Below</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SITE HEADER ─── -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="header-brand" aria-label="PureNest Eco Baby Home">
+        <img src="images/logo.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-light">
+        <img src="images/logo-dark.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-dark">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="home-2.html">Home 2</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="getting-started.html">Getting Started</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="header-util-btn icon-only theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="rtlToggleBtn" class="header-util-btn rtl-toggle-btn" aria-label="Toggle RTL / LTR Layout" title="Toggle RTL Layout">
+          <i class="fa-solid fa-right-left"></i>
+          <span class="rtl-text-label">RTL</span>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Consult
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── MOBILE DRAWER & OVERLAY ─── -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="images/logo.svg" alt="PureNest Logo" class="brand-logo-light" style="height: 38px;">
+      <img src="images/logo-dark.svg" alt="PureNest Logo" class="brand-logo-dark" style="height: 38px;">
+      <button id="mobileNavClose" style="background:none; border:none; font-size:1.4rem; color:var(--text-title); cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="home-2.html">Home 2 <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="products.html">Products <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="getting-started.html">Getting Started <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="about.html">About <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="blog.html" class="active">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="contact.html">Contact <i class="fa-solid fa-chevron-right"></i></a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <div class="mobile-drawer-util-row" style="margin-top:0; padding-top:0; border-top:none; margin-bottom:1rem;">
+        <button class="header-util-btn theme-toggle-btn" id="mobileThemeToggleBtn" aria-label="Toggle Dark / Light Theme">
+          <i class="fa-solid fa-moon"></i>
+          <span>Theme</span>
+        </button>
+        <button class="header-util-btn rtl-toggle-btn" id="mobileRtlToggleBtn" aria-label="Toggle RTL Mode">
+          <i class="fa-solid fa-right-left"></i>
+          <span>RTL / LTR</span>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Book Free Fit Consult
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 1: BLOG JOURNAL HERO (UNIFIED 440PX HEIGHT SYSTEM)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="page-hero-unified" aria-label="Blog Journal Hero">
+      <div class="container">
+        <div class="hero-grid-2col">
+
+          <div class="hero-content-col">
+            <div class="hero-badge">
+              <span class="badge-pill badge-sky">
+                <i class="fa-solid fa-feather-pointed"></i> Practical Advice &bull; Laundry Guides &bull; Real Families
+              </span>
+            </div>
+
+            <h1>
+              The Sustainable <br>
+              <span class="gradient-text">Reusable Parenting Journal</span>
+            </h1>
+
+            <p class="hero-lead">
+              Evidence-based wash routines, diaper cost calculators, insert stacking guides, and candid advice from experienced Australian families navigating reusable care.
+            </p>
+
+            <div class="hero-points-chips">
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-newspaper"></i> 6 In-Depth Guides
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-calculator"></i> $3,200 Cost Breakdown
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-flask"></i> Science-Backed Wash Tips
+              </span>
+            </div>
+
+            <div class="hero-buttons-wrap">
+              <a href="#featured-article" class="btn btn-primary">
+                <i class="fa-solid fa-star"></i> Read Featured Guide
+              </a>
+              <a href="#articles-grid" class="btn btn-secondary">
+                <i class="fa-solid fa-book-open"></i> Browse All Articles
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual with Hotspots -->
+          <div class="hero-visual-col">
+            <div class="visual-card-wrap">
+              <img src="images/wipes_accessories.jpg"
+                alt="PureNest Reusable Bamboo Wipes and Daily Baby Care Accessories">
+
+              <!-- Hotspot 1 -->
+              <div class="story-hotspot hotspot-1">
+                <i class="fa-solid fa-sparkles" style="color:var(--sky-blue);"></i>
+                <span>Step-by-Step Guides</span>
+              </div>
+
+              <!-- Hotspot 2 -->
+              <div class="story-hotspot hotspot-2">
+                <i class="fa-solid fa-clock" style="color:var(--pastel-green);"></i>
+                <span>5–8 Min Quick Reads</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 2: FEATURED ARTICLE
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" style="padding-top: 3.5rem;" aria-label="Featured Article">
+      <div class="container">
+        <div class="card blog-featured-card">
+          <div class="blog-featured-grid">
+            
+            <div class="blog-featured-media">
+              <img src="images/mother_changing_baby.jpg" alt="Mother happily fitting cloth diaper on baby">
+            </div>
+
+            <div class="blog-featured-body">
+              <span class="badge-pill badge-mint" style="margin-bottom:0.8rem;">
+                <i class="fa-solid fa-star"></i> Featured Guide
+              </span>
+              <div class="blog-meta-row">
+                <span><i class="fa-solid fa-calendar-day"></i> October 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-solid fa-clock"></i> 7 Min Read</span>
+                <span>&bull;</span>
+                <span>By Emma Vance</span>
+              </div>
+              <h2>
+                Cloth Diapers and Reusable Wipes: A Simple Daily Routine
+              </h2>
+              <p>
+                Pairing modern cloth diapers with washable bamboo wipes is the single highest-impact swap you can make. Here is our step-by-step daily workflow for pre-wetting wipes, storing soiled items, and washing together in one 2-step machine cycle.
+              </p>
+              <a href="blog-details.html?id=4" class="btn btn-primary">
+                Read Routine Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 3: ARTICLES GRID (REQUESTED REUSABLE BABY ARTICLES)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="articles-grid" aria-label="Article Grid">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-layer-group"></i> Latest Guides
+          </span>
+          <h2>Helpful Guides for Reusable Baby Care</h2>
+          <p>
+            Real solutions to everyday baby care questions written by experienced cloth diapering parents:
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          
+          <!-- Article 1: 10 Reusable Baby Products -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=1" class="blog-card-media" aria-label="Read 10 Reusable Baby Products Every New Parent Should Know">
+              <img src="images/starter_bundle.jpg" alt="10 Reusable Baby Products Every New Parent Should Know">
+              <span class="blog-badge-tag"><i class="fa-solid fa-star"></i> Essentials Guide</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Oct 6, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 6 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=1">10 Reusable Baby Products Every New Parent Should Know</a></h3>
+              <p>
+                Beyond cloth diapers: discover how bamboo wipes, washable nursing pads, silicone bibs, burp cloths, and wet bags save time, money, and landfill space.
+              </p>
+              <a href="blog-details.html?id=1" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 2: How to Build a Baby Care Kit -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=2" class="blog-card-media" aria-label="Read How to Build a Reusable Baby Care Kit">
+              <img src="images/diapers_collection.jpg" alt="How to Build a Reusable Baby Care Kit">
+              <span class="blog-badge-tag"><i class="fa-solid fa-boxes-packing"></i> Stash Planning</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Sep 30, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=2">How to Build a Reusable Baby Care Kit: From Newborn to Toddler</a></h3>
+              <p>
+                A stage-by-stage guide to curating the perfect collection of diapers, wipes, boosters, and wet bags tailored to your family's laundry rhythm.
+              </p>
+              <a href="blog-details.html?id=2" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 3: Reusable Baby Products That Save Money -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=3" class="blog-card-media" aria-label="Read Reusable Baby Products That Save Money Over Time">
+              <img src="images/hero_baby.jpg" alt="Reusable Baby Products That Save Money Over Time">
+              <span class="blog-badge-tag"><i class="fa-solid fa-piggy-bank"></i> Family Finance</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Sep 24, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 7 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=3">Reusable Baby Products That Save Money Over Time: The Real Math</a></h3>
+              <p>
+                We calculate the exact lifetime cost of single-use disposable diapers, wipes, and paper products vs one-off washable stashes. The math will surprise you.
+              </p>
+              <a href="blog-details.html?id=3" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 4: How to Wash and Store Reusable Baby Essentials -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=4" class="blog-card-media" aria-label="Read How to Wash and Store Reusable Baby Essentials">
+              <img src="images/bamboo_inserts_pack.jpg" alt="How to Wash and Store Reusable Baby Essentials">
+              <span class="blog-badge-tag"><i class="fa-solid fa-soap"></i> Laundry Science</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Sep 18, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=4">How to Wash and Store Reusable Baby Essentials (Diapers, Wipes &amp; Bibs)</a></h3>
+              <p>
+                The unified 3-step washing routine that lets you clean diapers, bamboo wipes, drool bibs, and nursing pads in the same drum with zero fuss.
+              </p>
+              <a href="blog-details.html?id=4" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 5: Washable Nursing Pads -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=5" class="blog-card-media" aria-label="Read Washable Nursing Pads">
+              <img src="images/nursing_pads.jpg" alt="Washable Bamboo Nursing Breast Pads">
+              <span class="blog-badge-tag"><i class="fa-solid fa-heart-pulse"></i> Mother Care</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Sep 12, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=5">Washable Nursing Pads: Why Bamboo Beats Disposable Plastic Every Time</a></h3>
+              <p>
+                Why sore postpartum nipples love organic bamboo velour. How to avoid scratchy disposables and wash pads easily in a mesh laundry bag.
+              </p>
+              <a href="blog-details.html?id=5" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 6: Wet Bags for Daycare & Outings -->
+          <div class="blog-card">
+            <a href="blog-details.html?id=6" class="blog-card-media" aria-label="Read The Essential Guide to Wet Bags">
+              <img src="images/wet_bags.jpg" alt="Waterproof Wet Bags for Daycare and Outings">
+              <span class="blog-badge-tag"><i class="fa-solid fa-bag-shopping"></i> Daycare Tips</span>
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="fa-regular fa-calendar"></i> Aug 28, 2026</span>
+                <span>&bull;</span>
+                <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+              </div>
+              <h3><a href="blog-details.html?id=6">The Essential Guide to Wet Bags: Daycare, Swimming &amp; Stroller Outings</a></h3>
+              <p>
+                How dual-zipper waterproof wet bags trap moisture and odors. Why educators love them and how to clean them so they last for years.
+              </p>
+              <a href="blog-details.html?id=6" class="blog-read-more">
+                Read Guide <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 4: FREE DOWNLOADABLE NURSERY RESOURCE KIT (REDESIGNED)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="downloadable-resources" aria-label="Free Downloads">
+      <div class="container">
+        <div class="cheatsheet-showcase-box">
+          <div class="cheatsheet-split-grid">
+            
+            <!-- Left Info & Download Column -->
+            <div class="cheatsheet-info-col">
+              <div class="cheatsheet-pill-header">
+                <span class="badge-pill badge-mint">
+                  <i class="fa-solid fa-file-pdf"></i> Free Parent Resource &bull; 2026 Edition
+                </span>
+                <span class="cheatsheet-rating-chip">
+                  <i class="fa-solid fa-star"></i> 4.9/5 (1,240+ Aussie Downloads)
+                </span>
+              </div>
+
+              <h2>The Nursery Wash &amp; Reusable Care Cheat Sheet</h2>
+              <p class="cheatsheet-lead-desc">
+                Designed by pediatric health nurses and cloth diapering parents. Tape this 1-page visual guide right above your washing machine or changing table for foolproof washing routines, temperature guides, and fabric care.
+              </p>
+
+              <!-- Feature Bullet Cards -->
+              <div class="cheatsheet-feature-list">
+                <div class="cheatsheet-feat-item">
+                  <div class="feat-icon-bullet" style="background:var(--sky-blue-light); color:var(--sky-blue-deep);">
+                    <i class="fa-solid fa-temperature-arrow-up"></i>
+                  </div>
+                  <div>
+                    <strong>2-Step Machine Wash Temperature Chart</strong>
+                    <span>40°C quick pre-wash flush &amp; 60°C heavy cycle sanitization</span>
+                  </div>
+                </div>
+
+                <div class="cheatsheet-feat-item">
+                  <div class="feat-icon-bullet" style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">
+                    <i class="fa-solid fa-wind"></i>
+                  </div>
+                  <div>
+                    <strong>Airy Dry Pail Storage Rules</strong>
+                    <span>Stops bacteria and ammonia odor before they even start (zero soaking)</span>
+                  </div>
+                </div>
+
+                <div class="cheatsheet-feat-item">
+                  <div class="feat-icon-bullet" style="background:var(--warm-peach-light); color:#D36127;">
+                    <i class="fa-solid fa-sun"></i>
+                  </div>
+                  <div>
+                    <strong>Sunlight Bleaching &amp; Stain Removal Guide</strong>
+                    <span>Natural UV breakdown of breastmilk &amp; berry food stains without bleach</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Download & Preview Form -->
+              <div class="cheatsheet-action-area">
+                <form class="cheatsheet-download-form" onsubmit="handleCheatSheetSubmit(event)">
+                  <div class="cs-input-group">
+                    <i class="fa-regular fa-envelope cs-input-icon"></i>
+                    <input type="email" id="csUserEmail" placeholder="Enter your email for instant PDF..." required>
+                  </div>
+                  <button type="submit" class="btn btn-mint">
+                    <i class="fa-solid fa-download"></i> Get Free PDF
+                  </button>
+                </form>
+
+                <div class="cheatsheet-quick-tools">
+                  <button type="button" class="btn btn-secondary btn-sm" onclick="openCheatSheetModal()">
+                    <i class="fa-regular fa-eye"></i> Quick Preview Sheet
+                  </button>
+                  <button type="button" class="btn btn-secondary btn-sm" onclick="triggerDirectCheatSheetDownload()">
+                    <i class="fa-solid fa-file-arrow-down"></i> Direct Download
+                  </button>
+                </div>
+
+                <div class="cheatsheet-guarantee-note">
+                  <i class="fa-solid fa-lock"></i> No spam. Instant direct download link. Print-ready A4 &amp; US Letter vector PDF.
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Visual Poster Mockup Column -->
+            <div class="cheatsheet-visual-col">
+              <div class="poster-mockup-wrapper" onclick="openCheatSheetModal()" title="Click to preview printable cheat sheet" tabindex="0" role="button">
+                
+                <!-- Floating Badges -->
+                <div class="cs-float-chip float-top-left">
+                  <i class="fa-solid fa-print"></i> 1-Page Printable
+                </div>
+                <div class="cs-float-chip float-bottom-right">
+                  <i class="fa-solid fa-circle-check" style="color:var(--pastel-green);"></i> Nurse Approved
+                </div>
+
+                <!-- Printable Sheet Simulation Card -->
+                <div class="poster-sheet-frame">
+                  
+                  <!-- Poster Top Header -->
+                  <div class="sheet-top-banner">
+                    <div class="sheet-brand-row">
+                      <div class="sheet-brand-mark">
+                        <i class="fa-solid fa-leaf" style="color:var(--pastel-green);"></i> PureNest
+                      </div>
+                      <span class="sheet-badge-tiny">OFFICIAL WASH GUIDE</span>
+                    </div>
+                    <div class="sheet-title-text">NURSERY WASH &amp; CARE CHEAT SHEET</div>
+                    <div class="sheet-sub-text">Foolproof daily routine for Diapers, Bamboo Wipes &amp; Bibs</div>
+                  </div>
+
+                  <!-- Step 1 Block: Pre-Wash -->
+                  <div class="sheet-step-box step-prewash">
+                    <div class="step-num-badge">1</div>
+                    <div class="step-info-block">
+                      <div class="step-title-row">
+                        <strong>STEP 1: PRE-WASH (EVERY 1-2 DAYS)</strong>
+                        <span class="step-spec-tag">40°C &bull; 30-45 MIN</span>
+                      </div>
+                      <p>Short warm cycle with 1/2 detergent dose. Flushes out 95% of soiled water and prepares textiles for deep sanitizing.</p>
+                    </div>
+                  </div>
+
+                  <!-- Step 2 Block: Main Wash -->
+                  <div class="sheet-step-box step-mainwash">
+                    <div class="step-num-badge" style="background:var(--pastel-green);">2</div>
+                    <div class="step-info-block">
+                      <div class="step-title-row">
+                        <strong>STEP 2: MAIN WASH (EVERY 2-3 DAYS)</strong>
+                        <span class="step-spec-tag" style="background:#EBF8F2; color:var(--pastel-green-dark);">60°C &bull; HEAVY COTTONS</span>
+                      </div>
+                      <p>Long heavy wash with full detergent dose. Sanitizes fibers, removes sweat oils, leaves diapers squeaky clean.</p>
+                    </div>
+                  </div>
+
+                  <!-- Step 3 Block: Drying -->
+                  <div class="sheet-step-box step-dry">
+                    <div class="step-num-badge" style="background:#F59E0B;">3</div>
+                    <div class="step-info-block">
+                      <div class="step-title-row">
+                        <strong>STEP 3: LINE AIR DRY</strong>
+                        <span class="step-spec-tag" style="background:#FFFBEB; color:#D97706;">SUNLIGHT UV</span>
+                      </div>
+                      <p>Hang covers in shade, line dry bamboo inserts in sunshine for natural stain elimination.</p>
+                    </div>
+                  </div>
+
+                  <!-- Poster Footer Rules -->
+                  <div class="sheet-rules-bar">
+                    <div class="rule-chip-item"><i class="fa-solid fa-ban" style="color:#EF4444;"></i> NO FABRIC SOFTENER</div>
+                    <div class="rule-chip-item"><i class="fa-solid fa-ban" style="color:#EF4444;"></i> NO BUCKET SOAKING</div>
+                    <div class="rule-chip-item"><i class="fa-solid fa-check" style="color:var(--pastel-green);"></i> AIRY DRY PAIL</div>
+                  </div>
+
+                  <!-- Click To Zoom Indicator -->
+                  <div class="sheet-zoom-overlay">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <span>Click to View Full Size</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 5: INTERACTIVE CARE KIT QUIZ CALLOUT
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-warm" id="quiz-callout" aria-label="Care Kit Quiz">
+      <div class="container text-center">
+        <div style="max-width: 680px; margin: 0 auto;">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> 60-Second Quiz
+          </span>
+          <h2>Which Reusable Baby Care Kit Matches Your Routine?</h2>
+          <p class="text-lead" style="margin-bottom: 2rem;">
+            Answer 4 quick questions about your baby's age, whether you are trying reusables part-time or full-time, and get a tailored kit recommendation.
+          </p>
+          <a href="contact.html?interest=Personalized+Baby+Care+Kit+Recommendation" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-circle-question"></i> Take the 60-Second Stash Quiz
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 6: BLOG FAQ SECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="blog-faq" aria-label="Blog Topics FAQ">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-comments"></i> Common Community Queries
+          </span>
+          <h2>Frequently Read Topics</h2>
+          <p>
+            Quick answers to our most searched reusable parenting topics:
+          </p>
+        </div>
+
+        <div class="faq-accordion-container">
+          <div class="faq-item active">
+            <button class="faq-question-btn" type="button">
+              <span>Can I wash bamboo wipes and bandana bibs in the same cycle with diapers?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Yes! That is one of the greatest time-savers of modern reusable baby care. They all go into your airy dry pail and wash together in your regular 2-step warm machine cycle.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>How do I remove milk and food stains from cloth wipes and burp cloths?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Hanging clean damp wipes and burp cloths in natural sunlight for 2–3 hours naturally breaks down pigments and stains without needing chemical bleaches!
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-bio">
+          <a href="index.html">
+            <img src="images/logo-dark.svg" alt="PureNest Logo" style="height: 44px;">
+          </a>
+          <p>
+            PureNest Eco Baby Reusables — Educational guides, sustainable baby essentials, and gentle cloth diapers for healthy, joyful parenting.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-circle" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Blog Categories</h5>
+          <ul class="footer-links-list">
+            <li><a href="#articles-grid">Reusable Baby Essentials</a></li>
+            <li><a href="#articles-grid">Cloth Diapers &amp; Wipes</a></li>
+            <li><a href="#articles-grid">Care Kit Planning</a></li>
+            <li><a href="#articles-grid">Money Saving Math</a></li>
+            <li><a href="#articles-grid">Wash &amp; Storage Routines</a></li>
+            <li><a href="#downloadable-resources">Printable Cheat Sheets</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Collections</h5>
+          <ul class="footer-links-list">
+            <li><a href="products.html?category=cloth-diapers">Pocket Cloth Diapers</a></li>
+            <li><a href="products.html?category=wipes">Washable Bamboo Wipes</a></li>
+            <li><a href="products.html?category=feeding">Bandana Bibs &amp; Burp Cloths</a></li>
+            <li><a href="products.html?category=care">Bamboo Nursing Breast Pads</a></li>
+            <li><a href="products.html?category=accessories">Waterproof Wet Bags</a></li>
+            <li><a href="products.html?category=bundles">Starter Care Kits</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter-box">
+          <h5>Subscribe to the Journal</h5>
+          <p>New weekly cloth tips, laundry guides, and exclusive subscriber discounts.</p>
+          <form class="footer-subscribe-form">
+            <input type="email" placeholder="Your email address..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 PureNest Eco Baby Reusables. All rights reserved. Gentle on baby, kinder to the planet.</span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Contact Editorial</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── CHEAT SHEET INTERACTIVE PREVIEW MODAL ─── -->
+  <div class="cs-modal-backdrop" id="cheatSheetModal" onclick="closeCheatSheetModal(event)" role="dialog" aria-modal="true" aria-labelledby="csModalTitle">
+    <div class="cs-modal-dialog" onclick="event.stopPropagation()">
+      <div class="cs-modal-header">
+        <div style="display:flex; align-items:center; gap:0.8rem;">
+          <div class="spec-seal-disc" style="width:38px; height:38px; font-size:1rem; background:var(--pastel-green-light); color:var(--pastel-green-dark); margin:0;">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <div>
+            <h3 id="csModalTitle" style="margin:0; font-size:1.25rem;">Nursery Wash &amp; Care Cheat Sheet</h3>
+            <span style="font-size:0.8rem; color:var(--text-muted);">High-Resolution Printable Vector Guide &bull; 100% Free</span>
+          </div>
+        </div>
+        <button class="cs-modal-close" onclick="closeCheatSheetModal()" aria-label="Close Preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="cs-modal-body">
+        <div class="modal-sheet-canvas">
+          <div class="modal-sheet-top">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.8rem;">
+              <img src="images/logo.svg" alt="PureNest Logo" style="height:36px;">
+              <span class="badge-pill badge-mint">PRINTABLE NURSERY GUIDE</span>
+            </div>
+            <h2 style="font-size:1.6rem; color:var(--text-title); margin-bottom:0.3rem;">PureNest Daily Wash &amp; Care Protocol</h2>
+            <p style="color:var(--text-body); font-size:0.95rem; margin-bottom:1.4rem;">Keep this visual guide pinned near your machine for simple, odor-free, non-toxic washing.</p>
+          </div>
+
+          <div class="modal-sheet-grid">
+            <!-- Box 1 -->
+            <div class="modal-wash-card" style="border-top:4px solid var(--sky-blue);">
+              <div class="mwc-badge" style="background:var(--sky-blue-light); color:var(--sky-blue-deep);">STEP 1: PRE-WASH</div>
+              <h4>Short Warm Cycle</h4>
+              <div class="mwc-spec"><strong>Temp:</strong> 40°C &bull; <strong>Time:</strong> 30–45 mins</div>
+              <div class="mwc-spec"><strong>Detergent:</strong> 1/2 regular scoop</div>
+              <p>Runs every 1–2 days. Removes 95% of urine and soiling so the main wash is clean water sanitization.</p>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="modal-wash-card" style="border-top:4px solid var(--pastel-green);">
+              <div class="mwc-badge" style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">STEP 2: MAIN WASH</div>
+              <h4>Long Heavy Cottons</h4>
+              <div class="mwc-spec"><strong>Temp:</strong> 40°C–60°C &bull; <strong>Time:</strong> 2–2.5 hours</div>
+              <div class="mwc-spec"><strong>Detergent:</strong> Full standard dose</div>
+              <p>Runs every 2–3 days. Thorough mechanical friction and water flow sanitizes diapers, wipes, and bibs.</p>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="modal-wash-card" style="border-top:4px solid #F59E0B;">
+              <div class="mwc-badge" style="background:#FFFBEB; color:#D97706;">STEP 3: DRYING</div>
+              <h4>Air Line Dry / Low Dryer</h4>
+              <div class="mwc-spec"><strong>Covers:</strong> Line dry in shade</div>
+              <div class="mwc-spec"><strong>Inserts &amp; Wipes:</strong> Sunshine or low tumble</div>
+              <p>Natural ultraviolet sunshine safely bleaches stains without chemical optical brighteners.</p>
+            </div>
+          </div>
+
+          <!-- Important Rules Row -->
+          <div class="modal-rules-banner">
+            <div style="font-weight:700; color:var(--text-title); margin-bottom:0.5rem;"><i class="fa-solid fa-triangle-exclamation" style="color:#D97706;"></i> Essential Laundry Golden Rules:</div>
+            <ul class="modal-rules-list">
+              <li><i class="fa-solid fa-xmark" style="color:#EF4444;"></i> <strong>Never use fabric softeners:</strong> Coats fibers and ruins absorbency.</li>
+              <li><i class="fa-solid fa-xmark" style="color:#EF4444;"></i> <strong>Never soak in water buckets:</strong> Encourages bacteria and degrades elastic.</li>
+              <li><i class="fa-solid fa-check" style="color:var(--pastel-green);"></i> <strong>Store in airy dry pails:</strong> Oxygen prevents ammonia odor buildup.</li>
+              <li><i class="fa-solid fa-check" style="color:var(--pastel-green);"></i> <strong>Wash all essentials together:</strong> Diapers, wipes, bibs wash in 1 drum.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-modal-footer">
+        <button class="btn btn-secondary btn-sm" onclick="window.print()">
+          <i class="fa-solid fa-print"></i> Print Cheat Sheet
+        </button>
+        <button class="btn btn-mint btn-sm" onclick="triggerDirectCheatSheetDownload()">
+          <i class="fa-solid fa-download"></i> Download PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>
+    function openCheatSheetModal() {
+      const modal = document.getElementById('cheatSheetModal');
+      if (modal) modal.classList.add('active');
+    }
+
+    function closeCheatSheetModal(event) {
+      if (!event || event.target.id === 'cheatSheetModal' || event.target.closest('.cs-modal-close')) {
+        const modal = document.getElementById('cheatSheetModal');
+        if (modal) modal.classList.remove('active');
+      }
+    }
+
+    function handleCheatSheetSubmit(e) {
+      e.preventDefault();
+      const email = document.getElementById('csUserEmail').value;
+      if (email) {
+        showToast('Success! Cheat sheet sent to ' + email, 'fa-solid fa-file-circle-check');
+        document.getElementById('csUserEmail').value = '';
+        setTimeout(triggerDirectCheatSheetDownload, 600);
+      }
+    }
+
+    function triggerDirectCheatSheetDownload() {
+      showToast('Downloading Nursery Wash Cheat Sheet PDF...', 'fa-solid fa-download');
+      const element = document.createElement('a');
+      element.setAttribute('href', 'images/favicon.svg');
+      element.setAttribute('download', 'PureNest-Nursery-Wash-Cheat-Sheet-2026.pdf');
+      element.style.display = 'none';
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+    }
+  </script>
+</body>
+</html>

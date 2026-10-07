@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="PureNest Eco Baby — Local store specializing in modern cloth diapers and reusable baby products. Organic wipes, washable changing pads, nursing pads, bibs, and zero-waste baby essentials.">
+  <title>PureNest Eco Baby — Local Cloth Diapers &amp; Reusable Baby Products Store</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ─── TOP ANNOUNCEMENT BAR ─── -->
+  <div class="top-announcement">
+    <div class="top-announcement-inner">
+      <div class="top-announcement-perks">
+        <span><i class="fa-solid fa-leaf" style="color: #5BB381;"></i> Local Cloth Diapers &amp; Reusable Baby Products
+          Store</span>
+        <span><i class="fa-solid fa-truck-fast" style="color: #58A6DF;"></i> Carbon-Neutral Delivery &bull; Free Local
+          Fit Consultations</span>
+        <span><i class="fa-solid fa-shield-heart" style="color: #FF9E6D;"></i> 100% Non-Toxic &amp; OEKO-TEX 100
+          Certified</span>
+      </div>
+
+      <div class="top-announcement-contact">
+        <span><i class="fa-solid fa-phone" style="font-size: 0.8rem; color: #58A6DF;"></i> Melbourne Store: (03) 9419
+          8234</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SITE HEADER ─── -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="header-brand" aria-label="PureNest Eco Baby Home">
+        <img src="images/logo.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo"
+          class="brand-logo-light">
+        <img src="images/logo-dark.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo"
+          class="brand-logo-dark">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="home-2.html">Home 2</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="getting-started.html">Getting Started</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="header-util-btn icon-only theme-toggle-btn"
+          aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="rtlToggleBtn" class="header-util-btn rtl-toggle-btn" aria-label="Toggle RTL / LTR Layout"
+          title="Toggle RTL Layout">
+          <i class="fa-solid fa-right-left"></i>
+          <span class="rtl-text-label">RTL</span>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Consult
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── MOBILE DRAWER & OVERLAY ─── -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="images/logo.svg" alt="PureNest Logo" class="brand-logo-light" style="height: 38px;">
+      <img src="images/logo-dark.svg" alt="PureNest Logo" class="brand-logo-dark" style="height: 38px;">
+      <button id="mobileNavClose"
+        style="background:none; border:none; font-size:1.4rem; color:var(--text-title); cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="active">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="home-2.html">Home 2 <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="products.html">Products <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="getting-started.html">Getting Started <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="about.html">About <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="blog.html">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="contact.html">Contact <i class="fa-solid fa-chevron-right"></i></a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <div class="mobile-drawer-util-row" style="margin-top:0; padding-top:0; border-top:none; margin-bottom:1rem;">
+        <button class="header-util-btn theme-toggle-btn" id="mobileThemeToggleBtn"
+          aria-label="Toggle Dark / Light Theme">
+          <i class="fa-solid fa-moon"></i>
+          <span>Theme</span>
+        </button>
+        <button class="header-util-btn rtl-toggle-btn" id="mobileRtlToggleBtn" aria-label="Toggle RTL Mode">
+          <i class="fa-solid fa-right-left"></i>
+          <span>RTL / LTR</span>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Book Free Fit Consult
+      </a>
+      <p style="font-size: 0.82rem; color: var(--text-muted); text-align: center; margin-top: 0.5rem;">
+        Local Eco Baby Store &bull; 42 Greenleaf Way, Melbourne
+      </p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 1: FLAGSHIP HERO (PREMIUM 2-COLUMN ECO DESIGN)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="page-hero-unified hero-home-flagship" aria-label="PureNest Eco Baby Introduction">
+      <div class="container">
+        <div class="hero-grid-2col">
+
+          <!-- Left Column: Compelling Copy, Quick Perks & Dual CTAs -->
+          <div class="hero-content-col">
+            <div class="hero-badge">
+              <span class="badge-pill badge-mint">
+                <i class="fa-solid fa-leaf"></i> 100% Organic Bamboo &bull; Eco Baby Care
+              </span>
+            </div>
+
+            <h1>
+              Sustainable, Gentle Diapers <br>
+              <span class="gradient-text">&amp; Whole-Home Reusables</span>
+            </h1>
+
+            <p class="hero-lead">
+              Ultra-soft, leak-proof cloth diapers and zero-waste nursery essentials engineered for baby's sensitive
+              skin, simpler laundry days, and over $3,200 in household savings.
+            </p>
+
+            <div class="hero-points-chips">
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-circle-check"></i> OEKO-TEX 100 Safe
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-circle-check"></i> One-Size (8–35 lbs)
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-circle-check"></i> 30-Day Fit Guarantee
+              </span>
+            </div>
+
+            <div class="hero-buttons-wrap">
+              <a href="products.html" class="btn btn-primary">
+                <i class="fa-solid fa-bag-shopping"></i> Shop Reusables
+              </a>
+              <a href="getting-started.html" class="btn btn-secondary">
+                <i class="fa-solid fa-book-open"></i> Beginner's Guide
+              </a>
+            </div>
+
+            <div class="hero-social-proof">
+              <div class="hero-rating-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="hero-rating-text"><strong>4.9 / 5</strong> from 12,000+ happy Australian families</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Photography Showcase Card with Dynamic Hotspots -->
+          <div class="hero-visual-col">
+            <div class="visual-card-wrap">
+              <img src="images/hero_baby.jpg"
+                alt="Happy baby wearing PureNest eco-friendly cloth diaper in natural light nursery">
+
+              <!-- Floating Hotspots -->
+              <div class="story-hotspot hotspot-1">
+                <i class="fa-solid fa-droplet-slash" style="color:var(--sky-blue);"></i>
+                <span>Double Leak Guard</span>
+              </div>
+
+              <div class="story-hotspot hotspot-2">
+                <i class="fa-solid fa-shield-heart" style="color:var(--pastel-green);"></i>
+                <span>Hypoallergenic Bamboo</span>
+              </div>
+
+              <div class="story-hotspot hotspot-bottom">
+                <i class="fa-solid fa-piggy-bank" style="color:#F59E0B;"></i>
+                <span>Save $3,200+</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Perks Directly Below the Clouds -->
+    <div class="hero-dream-trust">
+      <div class="hero-dream-trust-inner">
+        <div class="hero-dream-trust-item">
+          <i class="fa-solid fa-leaf"></i>
+          <span>100% Organic Bamboo &amp; Hemp</span>
+        </div>
+        <div class="hero-dream-trust-item">
+          <i class="fa-solid fa-droplet-slash"></i>
+          <span>Double Leak-Proof Gussets</span>
+        </div>
+        <div class="hero-dream-trust-item">
+          <i class="fa-solid fa-piggy-bank"></i>
+          <span>Save $3,200+ on Baby Care</span>
+        </div>
+        <div class="hero-dream-trust-item">
+          <i class="fa-solid fa-store"></i>
+          <span>Melbourne Local Store &bull; Free Fit Checks</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 2: EXPLORE OUR REUSABLE BABY PRODUCTS (DEDICATED CATEGORIES)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="reusable-categories" aria-label="Explore Reusable Baby Products">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-mint">
+            <i class="fa-solid fa-layer-group"></i> Complete Reusable Care
+          </span>
+          <h2>Explore Our Reusable Baby Products</h2>
+          <p>
+            From your baby's first diaper change to messy highchair meals and soothing evening baths, discover our
+            comprehensive range of durable, washable essentials that replace single-use disposables.
+          </p>
+        </div>
+
+        <div class="modern-cat-grid">
+
+          <!-- Category 1: Cloth Diapers -->
+          <a href="products.html?category=cloth-diapers" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/diaper_prints.jpg" alt="PureNest Modern Cloth Diapers in gentle botanical prints">
+              <span class="modern-cat-floating-badge" style="color:var(--sky-blue-hover);">Best Seller</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Cloth Diapers</h3>
+                <div class="modern-cat-icon-chip" style="background:var(--sky-blue-light); color:var(--sky-blue-deep);">
+                  <i class="fa-solid fa-baby"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Leak-free comfort from newborn to potty training. Adjustable 4-size rise snaps (8–35 lbs) with rash-free
+                bamboo lining.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> 8–35 lbs Rise</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Double Gussets</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Zero Waste</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Diaper Range</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 2: Reusable Wipes -->
+          <a href="products.html?category=wipes" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/wipes_accessories.jpg" alt="PureNest Ultra-Soft Bamboo Cloth Wipes">
+              <span class="modern-cat-floating-badge" style="color:var(--aqua);">Replaces 14k Wipes</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Reusable Wipes</h3>
+                <div class="modern-cat-icon-chip" style="background:var(--aqua-light); color:var(--aqua);">
+                  <i class="fa-solid fa-hand-holding-droplet"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Ultra-soft double-sided bamboo velour. Clean delicate skin using just warm water—one cloth wipe replaces
+                5 disposable plastic wipes.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> 100% Bamboo</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Chemical-Free</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> 20cm x 20cm</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Cloth Wipes</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 3: Changing Essentials -->
+          <a href="products.html?category=changing" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/mother_changing_baby.jpg"
+                alt="Mother changing smiling baby on washable padded changing mat">
+              <span class="modern-cat-floating-badge" style="color:var(--pastel-green-dark);">100% Waterproof</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Changing Essentials</h3>
+                <div class="modern-cat-icon-chip"
+                  style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">
+                  <i class="fa-solid fa-mattress-pillow"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Quilted organic cotton travel mats, stay-dry fleece diaper liners, and leak-proof wet bags for hygienic
+                changes everywhere.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Cushioned Mats</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Taped Seams</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Wet/Dry Bags</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Changing Mats</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 4: Feeding Essentials -->
+          <a href="products.html?category=feeding" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/reusable_bibs.jpg" alt="Organic cotton bandana bibs and waffle burp cloths">
+              <span class="modern-cat-floating-badge" style="color:var(--warm-peach);">Mealtime Hero</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Feeding Essentials</h3>
+                <div class="modern-cat-icon-chip" style="background:var(--warm-peach-light); color:var(--warm-peach);">
+                  <i class="fa-solid fa-utensils"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Absorbent bandana bibs, textured waffle burp cloths, and catch-all waterproof silicone bibs that keep
+                clothes spotless.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> GOTS Organic</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Fleece Backed</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Crumb Pocket</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Feeding &amp; Bibs</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 5: Baby Care Accessories -->
+          <a href="products.html?category=care" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/nursing_pads.jpg" alt="Washable bamboo nursing breast pads in mesh laundry bag">
+              <span class="modern-cat-floating-badge" style="color:#D53F8C;">Mother &amp; Baby</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Care Accessories</h3>
+                <div class="modern-cat-icon-chip" style="background:#FFF0F5; color:#D53F8C;">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Contoured washable bamboo nursing pads, delicate baby washcloths, and laundry mesh bags designed for
+                postpartum wellness.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Velvet Velour</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Mesh Bag Included</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Breathable</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Care Essentials</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 6: Wet Bags & Travel -->
+          <a href="products.html?category=changing" class="modern-cat-card">
+            <div class="modern-cat-media">
+              <img src="images/wet_bags.jpg" alt="PureNest Waterproof Dual-Pocket Wet Bags and On-the-Go Organizers">
+              <span class="modern-cat-floating-badge" style="color:var(--aqua);">Daycare Essential</span>
+            </div>
+            <div class="modern-cat-body">
+              <div class="modern-cat-header">
+                <h3>Wet Bags &amp; Travel</h3>
+                <div class="modern-cat-icon-chip" style="background:var(--aqua-light); color:var(--aqua);">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+              <p class="modern-cat-desc">
+                Odor-locking dual-pocket waterproof bags that keep clean and wet items safely separated for outings,
+                stroller trips, and daycare.
+              </p>
+              <div class="modern-cat-tags">
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Odor Sealing</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Waterproof TPU</span>
+                <span class="modern-cat-tag"><i class="fa-solid fa-check"
+                    style="color:var(--pastel-green); font-size:0.7rem;"></i> Machine Washable</span>
+              </div>
+              <div class="modern-cat-action">
+                <span>Explore Wet Bags</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="products.html" class="btn btn-secondary btn-lg">
+            View All Reusable Products &amp; Prints <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 3: WHY CHOOSE REUSABLE BABY PRODUCTS? (BENTO IMPACT GRID)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="why-reusables" aria-label="Why Choose Reusable Baby Products">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-leaf"></i> Practical &bull; Gentle &bull; Eco-Friendly
+          </span>
+          <h2>Why Choose Reusable Baby Products?</h2>
+          <p>
+            Switching from throwaway plastic to washable essentials is one of the most rewarding choices for your
+            baby’s skin health, your household budget, and our planet.
+          </p>
+        </div>
+
+        <div class="bento-impact-container">
+
+          <!-- Bento Spotlight 1: Big Impact Counter & Comparison (2-row height) -->
+          <div class="bento-card bento-hero-card">
+            <div>
+              <span class="bento-hero-tag">
+                <i class="fa-solid fa-trophy"></i> High-Impact Choice
+              </span>
+              <h3>The Real Eco &amp; Financial Reality</h3>
+              <p class="bento-hero-lead">
+                A single child consumes thousands of single-use disposables. PureNest reusables replace this mountain of
+                trash with 24 durable, beautiful essentials:
+              </p>
+
+              <div class="bento-comparison-box">
+                <div class="bento-compare-row">
+                  <span>Disposable Diapers:</span>
+                  <span class="compare-badge-disposable">6,500 into Landfill</span>
+                  <span class="compare-badge-reusable">Just 24 Reusables</span>
+                </div>
+                <div class="bento-compare-row">
+                  <span>Single-Use Wet Wipes:</span>
+                  <span class="compare-badge-disposable">14,000 Plastic Sheets</span>
+                  <span class="compare-badge-reusable">36 Bamboo Wipes</span>
+                </div>
+                <div class="bento-compare-row">
+                  <span>2.5-Year Household Cost:</span>
+                  <span class="compare-badge-disposable">$3,800 – $4,200 Spent</span>
+                  <span class="compare-badge-reusable">Save $3,200+ Net</span>
+                </div>
+                <div class="bento-compare-row">
+                  <span>Decomposition Period:</span>
+                  <span class="compare-badge-disposable">500+ Years in Soil</span>
+                  <span class="compare-badge-reusable">100% Recycled &amp; Reused</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-cert-callout">
+              <i class="fa-solid fa-shield-heart" style="font-size:1.6rem; color:var(--pastel-green);"></i>
+              <span>
+                Certified non-toxic textiles &bull; Safe for newborn skin from day one
+              </span>
+            </div>
+          </div>
+
+          <!-- Bento Card 2: Massive Household Savings -->
+          <div class="bento-card">
+            <div class="bento-icon-badge" style="background:var(--warm-peach-light); color:var(--warm-peach);">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <div class="bento-card-stat" style="color:var(--warm-peach);">$3,200+</div>
+            <h4>Substantial Long-Term Savings</h4>
+            <p>
+              Disposables burn $130 every single month. Your one-time PureNest stash costs only pennies per wash in
+              laundry, and passes down to future siblings for completely free baby care!
+            </p>
+          </div>
+
+          <!-- Bento Card 3: 100% Gentle, Chemical-Free Materials -->
+          <div class="bento-card">
+            <div class="bento-icon-badge" style="background:var(--aqua-light); color:var(--aqua);">
+              <i class="fa-solid fa-shield-virus"></i>
+            </div>
+            <div class="bento-card-stat" style="color:var(--aqua);">0%</div>
+            <h4>Toxin-Free, Rash-Free Skin</h4>
+            <p>
+              No petroleum SAP gels, no synthetic fragrances, and zero alcohol. Hypoallergenic bamboo velour and organic
+              cotton naturally eliminate the causes of stubborn diaper rashes.
+            </p>
+          </div>
+
+          <!-- Bento Card 4: Unified Machine Washing -->
+          <div class="bento-card">
+            <div class="bento-icon-badge" style="background:var(--sky-blue-light); color:var(--sky-blue);">
+              <i class="fa-solid fa-shirt"></i>
+            </div>
+            <div class="bento-card-stat" style="color:var(--sky-blue);">1 Wash</div>
+            <h4>Unified Laundry Routine</h4>
+            <p>
+              No separate soaking buckets! Diapers, wipes, bibs, burp cloths, and nursing pads all wash together
+              seamlessly in your regular 40°C–60°C family laundry rhythm every 2–3 days.
+            </p>
+          </div>
+
+          <!-- Bento Card 5: Everyday Practicality -->
+          <div class="bento-card">
+            <div class="bento-icon-badge" style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">
+              <i class="fa-solid fa-house-circle-check"></i>
+            </div>
+            <div class="bento-card-stat" style="color:var(--pastel-green-dark);">100% Ready</div>
+            <h4>No 10 PM Supermarket Panic</h4>
+            <p>
+              Never make frantic emergency runs because you ran out of wipes or diapers in the middle of the night. Your
+              fresh stash is always neatly folded and ready right in your nursery dresser.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 4: BUILD YOUR BABY CARE KIT (BUNDLES & STARTER SETS)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="build-kit" aria-label="Build Your Baby Care Kit">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sage">
+            <i class="fa-solid fa-boxes-packing"></i> Curated Bundles
+          </span>
+          <h2>Build Your Reusable Baby Care Kit</h2>
+          <p>
+            We've combined diapers, wipes, inserts, wet bags, nursing pads, and changing accessories into practical,
+            all-inclusive starter collections for every stage.
+          </p>
+        </div>
+
+        <div class="bundles-grid">
+          <!-- Kit 1 -->
+          <div class="bundle-card">
+            <div class="bundle-header">
+              <span class="badge-pill badge-sky">Newborn Essentials</span>
+              <h3>Newborn Gentle Care Kit</h3>
+              <div class="bundle-price">
+                $119 <span class="save-tag">Ideal for hospital bag &amp; first 3 months</span>
+              </div>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> 6x PureNest Pocket Diapers + Bamboo Inserts</li>
+              <li><i class="fa-solid fa-check"></i> 18x Ultra-Soft Bamboo Cloth Baby Wipes</li>
+              <li><i class="fa-solid fa-check"></i> 1x Foldable Quilted Travel Changing Mat</li>
+              <li><i class="fa-solid fa-check"></i> 6x Washable Bamboo Nursing Breast Pads</li>
+              <li><i class="fa-solid fa-check"></i> 1x Travel Waterproof Diaper &amp; Wipe Wet Bag</li>
+              <li><i class="fa-solid fa-check"></i> 4x Gentle Organic Cotton Washcloths</li>
+            </ul>
+            <a href="contact.html?interest=Newborn+Gentle+Care+Kit" class="btn btn-secondary" style="width: 100%;">
+              Order Newborn Care Kit ($119)
+            </a>
+          </div>
+
+          <!-- Kit 2 (Featured) -->
+          <div class="bundle-card featured">
+            <div class="bundle-ribbon">Most Popular Bundle</div>
+            <div class="bundle-header">
+              <span class="badge-pill badge-mint">Daily Diapering &amp; Outings</span>
+              <h3>Everyday Changing &amp; Outings Kit</h3>
+              <div class="bundle-price">
+                $289 <span class="save-tag">Save $64 vs purchasing separately</span>
+              </div>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> 14x PureNest Pocket &amp; AIO Cloth Diapers</li>
+              <li><i class="fa-solid fa-check"></i> 22x High-Absorbency Bamboo Fleece Inserts</li>
+              <li><i class="fa-solid fa-check"></i> 24x Reusable Bamboo Velour Baby Wipes</li>
+              <li><i class="fa-solid fa-check"></i> 2x Dual-Pocket Waterproof Daycare Wet Bags</li>
+              <li><i class="fa-solid fa-check"></i> 1x Organic Quilted Changing Station Mat</li>
+              <li><i class="fa-solid fa-check"></i> 6x Reusable Stay-Dry Fleece Diaper Liners</li>
+              <li><i class="fa-solid fa-check"></i> 1x Cloth-Safe Organic Calendula Diaper Balm</li>
+            </ul>
+            <a href="contact.html?interest=Everyday+Changing+and+Outings+Kit" class="btn btn-primary"
+              style="width: 100%;">
+              Order Everyday Kit ($289)
+            </a>
+          </div>
+
+          <!-- Kit 3 -->
+          <div class="bundle-card">
+            <div class="bundle-header">
+              <span class="badge-pill badge-peach">All-in-One Stash</span>
+              <h3>The Complete Eco Baby Stash</h3>
+              <div class="bundle-price">
+                $519 <span class="save-tag">Complete 2.5-Year Supply</span>
+              </div>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> 24x One-Size Cloth Diapers (Pocket &amp; AIO)</li>
+              <li><i class="fa-solid fa-check"></i> 4x Overnight Heavy Wetter Hemp Fitteds</li>
+              <li><i class="fa-solid fa-check"></i> 36x Bamboo Day &amp; Night Boosters</li>
+              <li><i class="fa-solid fa-check"></i> 36x Washable Bamboo Baby Wipes</li>
+              <li><i class="fa-solid fa-check"></i> 6x Organic Bandana Bibs &amp; 4 Burp Cloths</li>
+              <li><i class="fa-solid fa-check"></i> 8x Washable Bamboo Nursing Breast Pads</li>
+              <li><i class="fa-solid fa-check"></i> 3x Hanging Diaper Pail Wet Bags + Sprayer</li>
+            </ul>
+            <a href="contact.html?interest=Complete+Eco+Baby+Stash" class="btn btn-secondary" style="width: 100%;">
+              Order Complete Stash ($519)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 5: FEATURED REUSABLE PRODUCTS SHOWCASE
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="featured-products" aria-label="Featured Reusable Products">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-star"></i> Featured Products
+          </span>
+          <h2>Loved by Australian Parents Everyday</h2>
+          <p>
+            Explore our most popular reusable essentials — each created from non-toxic, gentle textiles certified safe
+            for tender baby skin.
+          </p>
+        </div>
+
+        <div class="products-grid">
+
+          <!-- Product 1: Pocket Diaper -->
+          <div class="product-card" data-category="cloth-diapers">
+            <span class="product-card-badge" style="background:var(--sky-blue); color:#fff;">Best Seller</span>
+            <div class="product-media">
+              <img src="images/diapers_collection.jpg" alt="PureNest Everyday Modern Pocket Cloth Diaper">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Cloth Diapers</span>
+              <h3 class="product-title">Everyday Modern Pocket Diaper</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(184)</span>
+              </div>
+              <p class="product-desc">
+                Adjustable 4-size rise snaps (8–35 lbs), double leak-proof leg gussets, and stay-dry suedecloth lining.
+                Includes 1 bamboo insert.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">8–35 lbs One-Size</span>
+                <span class="feature-pill">Double Gusset</span>
+                <span class="feature-pill">Stay-Dry Fleece</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$18.50</div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Everyday Pocket Diaper">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2: Bamboo Baby Wipes -->
+          <div class="product-card" data-category="wipes">
+            <span class="product-card-badge" style="background:var(--pastel-green); color:#fff;">Zero Waste</span>
+            <div class="product-media">
+              <img src="images/wipes_accessories.jpg" alt="Washable Bamboo Cloth Baby Wipes 12-Pack">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Reusable Wipes</span>
+              <h3 class="product-title">Ultra-Soft Bamboo Baby Wipes (12-Pack)</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(198)</span>
+              </div>
+              <p class="product-desc">
+                Cloud-soft double-sided bamboo velour. Generous 20x20cm size cleans tender bums, messy meal faces, and
+                sticky hands with just warm water.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">Bamboo Velour</span>
+                <span class="feature-pill">Zero Plastic</span>
+                <span class="feature-pill">Machine Washable</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$15.00 <span class="price-unit">/ 12-pk</span></div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Bamboo Wipes 12-Pack">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3: Bandana Bibs & Burp Cloths -->
+          <div class="product-card" data-category="feeding">
+            <span class="product-card-badge" style="background:var(--warm-peach); color:#fff;">Mealtime</span>
+            <div class="product-media">
+              <img src="images/reusable_bibs.jpg" alt="Organic Cotton Bandana Bibs &amp; Burp Cloths">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Feeding Essentials</span>
+              <h3 class="product-title">Organic Bandana Bibs (3-Pack)</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(89)</span>
+              </div>
+              <p class="product-desc">
+                100% GOTS organic cotton front with ultra-absorbent fleece backing. Protects outfits from teething drool
+                with nickel-free adjustable snaps.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">GOTS Organic</span>
+                <span class="feature-pill">Fleece Backed</span>
+                <span class="feature-pill">Teething &amp; Meals</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$16.00 <span class="price-unit">/ 3-pk</span></div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Bandana Bibs 3-Pack">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4: Washable Nursing Breast Pads -->
+          <div class="product-card" data-category="care">
+            <span class="product-card-badge" style="background:var(--aqua); color:#fff;">Mother Care</span>
+            <div class="product-media">
+              <img src="images/nursing_pads.jpg" alt="Washable Bamboo Nursing Breast Pads in laundry bag">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Care Accessories</span>
+              <h3 class="product-title">Bamboo Nursing Breast Pads (8-Pack)</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(112)</span>
+              </div>
+              <p class="product-desc">
+                Ultra-soft contour bamboo velour touching nursing breasts with a hidden waterproof leak-stop backing.
+                Includes organic mesh laundry wash bag.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">Contoured Fit</span>
+                <span class="feature-pill">Waterproof TPU Back</span>
+                <span class="feature-pill">Mesh Bag Included</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$18.00 <span class="price-unit">/ 8-pk</span></div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Nursing Pads 8-Pack">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5: Quilted Travel Changing Mat -->
+          <div class="product-card" data-category="changing">
+            <span class="product-card-badge" style="background:var(--pastel-green-dark); color:#fff;">Padded &amp;
+              Waterproof</span>
+            <div class="product-media">
+              <img src="images/mother_changing_baby.jpg" alt="PureNest Quilted Foldable Travel Changing Mat">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Changing Essentials</span>
+              <h3 class="product-title">Quilted Travel Changing Mat</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(76)</span>
+              </div>
+              <p class="product-desc">
+                Cushioned GOTS organic cotton surface with leak-proof waterproof backing. Folds compactly with travel
+                snap strap for diaper bags.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">Organic Cotton</span>
+                <span class="feature-pill">Waterproof TPU</span>
+                <span class="feature-pill">Snap Travel Strap</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$28.00</div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Travel Changing Mat">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6: Dual-Pocket Waterproof Wet Bag -->
+          <div class="product-card" data-category="changing">
+            <span class="product-card-badge" style="background:var(--aqua); color:#fff;">Daycare Pick</span>
+            <div class="product-media">
+              <img src="images/wet_bags.jpg" alt="PureNest Dual-Pocket Waterproof Wet Bag">
+              <button class="product-quick-btn btn-quick-view">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+            <div class="product-body">
+              <span class="product-category-label">Changing Essentials</span>
+              <h3 class="product-title">Dual-Pocket Waterproof Wet Bag</h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="rating-count">(142)</span>
+              </div>
+              <p class="product-desc">
+                Keep clean and soiled items completely isolated. Dual zippered compartments with odor-locking taped
+                seams and snap stroller handle.
+              </p>
+              <div class="product-features-pills">
+                <span class="feature-pill">Dual Zipper Pockets</span>
+                <span class="feature-pill">Odor Locking</span>
+                <span class="feature-pill">Snap Stroller Handle</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$19.50</div>
+                <button class="btn btn-primary btn-sm btn-add-stash" data-product-name="Dual-Pocket Wet Bag">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="products.html" class="btn btn-primary btn-lg">
+            Browse All Reusable Products (16+ Items) <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 6: SUSTAINABILITY & INTERACTIVE SAVINGS CALCULATOR
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="savings-calculator" aria-label="Diaper and Reusable Savings Calculator">
+      <div class="container">
+
+        <!-- Stats Banner -->
+        <div class="stats-banner-card" style="margin-bottom: 4rem;">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-item-number">6,500+</div>
+              <div class="stat-item-title">Disposables Diverted</div>
+              <div class="stat-item-desc">Diapers saved per child</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item-number">14,000+</div>
+              <div class="stat-item-title">Single-Use Wipes Spared</div>
+              <div class="stat-item-desc">Plastic wet wipes replaced</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item-number">$3,200+</div>
+              <div class="stat-item-title">Family Savings Retained</div>
+              <div class="stat-item-desc">Diapers + wipes + bibs combined</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item-number">500 Yrs</div>
+              <div class="stat-item-title">Decomposition Spared</div>
+              <div class="stat-item-desc">Zero microplastics in our soil</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <span class="badge-pill badge-mint">
+            <i class="fa-solid fa-calculator"></i> Interactive Savings Tool
+          </span>
+          <h2>Calculate Your Family's Eco &amp; Financial Impact</h2>
+          <p>
+            Adjust the sliders below to see your combined savings across reusable cloth diapers and washable bamboo
+            wipes:
+          </p>
+        </div>
+
+        <!-- Calculator Card -->
+        <div class="calculator-card">
+          <div class="calc-controls">
+            <div class="calc-slider-group">
+              <label for="calcAgeSlider">
+                <span>Diapering Duration</span>
+                <span id="calcAgeVal" style="color:var(--sky-blue); font-weight:800;">24 Months</span>
+              </label>
+              <input type="range" id="calcAgeSlider" min="3" max="36" value="24" step="1">
+              <div
+                style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-muted); margin-top:0.3rem;">
+                <span>3 Months</span>
+                <span>12 Months</span>
+                <span>24 Months</span>
+                <span>36 Months</span>
+              </div>
+            </div>
+
+            <div class="calc-slider-group">
+              <label for="calcChangesSlider">
+                <span>Daily Diaper Changes</span>
+                <span id="calcChangesVal" style="color:var(--sky-blue); font-weight:800;">7 per Day</span>
+              </label>
+              <input type="range" id="calcChangesSlider" min="5" max="12" value="7" step="1">
+              <div
+                style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-muted); margin-top:0.3rem;">
+                <span>5 / day (Toddler)</span>
+                <span>7 / day (Infant)</span>
+                <span>10+ / day (Newborn)</span>
+              </div>
+            </div>
+
+            <p style="font-size:0.85rem; color:var(--text-muted);">
+              *Includes single-use diapers ($0.42/diaper) plus single-use wipe packets ($18/mo) vs one-off investment in
+              a PureNest reusable stash and laundry expenses.
+            </p>
+          </div>
+
+          <!-- Results Panel -->
+          <div class="calc-results-panel">
+            <span class="badge-pill badge-sage">
+              <i class="fa-solid fa-trophy"></i> Your Personal Impact
+            </span>
+            <div class="calc-stat-grid">
+              <div class="calc-stat-box highlight">
+                <div class="calc-stat-number" id="calcMoneySaved">$2,480</div>
+                <div class="calc-stat-label">Estimated Money Saved</div>
+              </div>
+              <div class="calc-stat-box">
+                <div class="calc-stat-number" id="calcDisposablesSaved">5,107</div>
+                <div class="calc-stat-label">Diapers Diverted</div>
+              </div>
+              <div class="calc-stat-box">
+                <div class="calc-stat-number" id="calcLandfillKg">919 kg</div>
+                <div class="calc-stat-label">Landfill Trash Prevented</div>
+              </div>
+              <div class="calc-stat-box">
+                <div class="calc-stat-number" id="calcTrashBags">43 Bags</div>
+                <div class="calc-stat-label">Garbage Bags Avoided</div>
+              </div>
+            </div>
+
+            <a href="products.html" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-bag-shopping"></i> Start Your Reusable Stash
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 7: CUSTOMER REVIEWS & LOCAL PARENT STORIES (MODERN REDESIGN)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="reviews" aria-label="Customer Reviews">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-comments"></i> Real Parent Stories
+          </span>
+          <h2>Loved by Australian Families Across the Country</h2>
+          <p>
+            Real feedback on our cloth diapers, bamboo wipes, nursing pads, and changing essentials:
+          </p>
+        </div>
+
+        <!-- Community Trust Banner -->
+        <div class="modern-review-trust-banner">
+          <div class="trust-score-badge">
+            <div class="trust-stars-glow">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span class="trust-score-num">4.95 / 5.0</span>
+          </div>
+          <div class="trust-divider-dot"></div>
+          <span style="font-weight:700; color:var(--text-title); font-size:0.92rem;">
+            <i class="fa-solid fa-users" style="color:var(--sky-blue); margin-right:4px;"></i> 3,400+ Families Switched
+          </span>
+          <div class="trust-divider-dot"></div>
+          <span style="font-weight:700; color:var(--text-title); font-size:0.92rem;">
+            <i class="fa-solid fa-certificate" style="color:var(--pastel-green); margin-right:4px;"></i> 100% Verified
+            Aussie Parents
+          </span>
+        </div>
+
+        <div class="modern-review-cards-grid">
+
+          <!-- Testimonial 1 -->
+          <div class="modern-review-card">
+            <i class="fa-solid fa-quote-right review-quote-watermark"></i>
+            <div class="review-card-top">
+              <img src="images/avatar_sarah.jpg" alt="Sarah Miller with baby Leo" class="review-avatar-img">
+              <div class="review-parent-meta">
+                <h4>Sarah Miller</h4>
+                <span>Mom to Leo (8 mos) &bull; Carlton, VIC</span>
+                <span class="review-verified-pill"><i class="fa-solid fa-circle-check"></i> Verified Buyer</span>
+              </div>
+            </div>
+            <div class="review-stars-row">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-lead-quote">
+              “The reusable wipes were our gateway product — total life upgrade!”
+            </h4>
+            <p class="review-body-text">
+              “Once we saw how one soft bamboo wipe cleaned what used to take 5 disposable plastic wipes without making
+              our son cry, we jumped straight into the pocket cloth diapers. <span class="review-highlight">His stubborn
+                eczema completely vanished in four days.</span> Zero leaks, zero plastic guilt!”
+            </p>
+            <div class="review-product-chip">
+              <i class="fa-solid fa-tag"></i> Purchased: Bamboo Wipes (36-pk) &amp; Pockets
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="modern-review-card">
+            <i class="fa-solid fa-quote-right review-quote-watermark"></i>
+            <div class="review-card-top">
+              <img src="images/avatar_david_rachel.jpg" alt="David & Rachel Nguyen with their baby"
+                class="review-avatar-img">
+              <div class="review-parent-meta">
+                <h4>David &amp; Rachel Nguyen</h4>
+                <span>Parents of Twins (11 mos) &bull; Fitzroy, VIC</span>
+                <span class="review-verified-pill"><i class="fa-solid fa-circle-check"></i> Verified Buyers</span>
+              </div>
+            </div>
+            <div class="review-stars-row">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-lead-quote">
+              “The nursing pads saved my fourth trimester &amp; wet bags make daycare seamless!”
+            </h4>
+            <p class="review-body-text">
+              “With twins, we were filling two garbage bins every week. The washable bamboo nursing pads saved my sore
+              nipples, and the dual-pocket wet bags make daycare handovers a breeze. <span
+                class="review-highlight">PureNest treats parents with genuine empathy and zero eco-guilt.</span>”
+            </p>
+            <div class="review-product-chip">
+              <i class="fa-solid fa-tag"></i> Purchased: Complete Twin Care Stash
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="modern-review-card">
+            <i class="fa-solid fa-quote-right review-quote-watermark"></i>
+            <div class="review-card-top">
+              <img src="images/avatar_priya.jpg" alt="Priya Kapoor with baby Maya" class="review-avatar-img">
+              <div class="review-parent-meta">
+                <h4>Priya Kapoor</h4>
+                <span>Mom to Maya (5 mos) &bull; Richmond, VIC</span>
+                <span class="review-verified-pill"><i class="fa-solid fa-circle-check"></i> Verified Buyer</span>
+              </div>
+            </div>
+            <div class="review-stars-row">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="review-lead-quote">
+              “The Newborn Care Kit gave us 100% confidence with cloth diapering!”
+            </h4>
+            <p class="review-body-text">
+              “We received the Newborn Gentle Care Kit at our baby shower. The organic bandana bibs and quilted changing
+              pad are so luxurious, and the in-store fit check at the Melbourne boutique gave my partner complete
+              confidence. <span class="review-highlight">We have not bought a single disposable diaper since leaving
+                hospital!</span>”
+            </p>
+            <div class="review-product-chip">
+              <i class="fa-solid fa-tag"></i> Purchased: Newborn Gentle Care Kit ($119)
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 8: FINAL STRONG ENQUIRY / CONSULTATION CTA
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="enquiry-cta" aria-label="Book Consultation CTA">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-content">
+            <span class="badge-pill badge-sky">
+              <i class="fa-solid fa-handshake-angle"></i> Local Expertise
+            </span>
+            <h2>Ready to Build Your Reusable Baby Routine?</h2>
+            <p>
+              Not sure which reusable products to start with? Book a free 15-minute consultation with our local cloth
+              diaper &amp; baby product specialists or visit our local boutique in Melbourne.
+            </p>
+            <div class="cta-banner-actions">
+              <a href="contact.html" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-calendar-check"></i> Book Free Consultation
+              </a>
+              <a href="products.html" class="btn btn-secondary btn-lg">
+                <i class="fa-solid fa-basket-shopping"></i> Shop Reusable Products
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Col 1: Brand Bio -->
+        <div class="footer-col footer-brand-bio">
+          <a href="index.html">
+            <img src="images/logo-dark.svg" alt="PureNest Logo" style="height: 44px;">
+          </a>
+          <p>
+            PureNest Eco Baby is an Australian family-owned store specializing in modern reusable cloth diapers,
+            washable bamboo wipes, organic nursing pads, and eco-friendly baby essentials.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-circle" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home-2.html">Home 2 (Storytelling)</a></li>
+            <li><a href="products.html">All Reusable Products</a></li>
+            <li><a href="getting-started.html">Getting Started Guide</a></li>
+            <li><a href="about.html">About Our Mission</a></li>
+            <li><a href="blog.html">Cloth Parenting Blog</a></li>
+            <li><a href="contact.html">Contact &amp; Store Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Products -->
+        <div class="footer-col">
+          <h5>Reusable Products</h5>
+          <ul class="footer-links-list">
+            <li><a href="products.html?category=cloth-diapers">Cloth Diapers (Pockets &amp; AIO)</a></li>
+            <li><a href="products.html?category=wipes">Washable Bamboo Wipes</a></li>
+            <li><a href="products.html?category=accessories">Changing Pads &amp; Wet Bags</a></li>
+            <li><a href="products.html?category=feeding">Bandana Bibs &amp; Burp Cloths</a></li>
+            <li><a href="products.html?category=care">Bamboo Nursing Breast Pads</a></li>
+            <li><a href="products.html?category=bundles">Curated Baby Care Kits</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store Visit & Newsletter -->
+        <div class="footer-col footer-newsletter-box">
+          <h5>Visit Our Boutique</h5>
+          <p style="font-size: 0.88rem; margin-bottom: 0.6rem;">
+            <i class="fa-solid fa-location-dot" style="color:var(--sky-blue); margin-right:6px;"></i>
+            42 Greenleaf Way, Eco Quarter, Melbourne VIC 3000
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 1.2rem;">
+            <i class="fa-solid fa-clock" style="color:var(--aqua); margin-right:6px;"></i>
+            Mon–Fri 9:00am–5:30pm | Sat 9:30am–4:00pm
+          </p>
+
+          <h5>Free Care Guide &amp; 10% Off</h5>
+          <p>Get our printable nursery wash routine chart &amp; discount code.</p>
+          <form class="footer-subscribe-form">
+            <input type="email" placeholder="Your email address..." required>
+            <button type="submit" class="btn btn-primary btn-sm" style="border-radius: var(--radius-pill);">
+              Join
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 PureNest Eco Baby Reusables. All rights reserved. Gentle on baby, kinder to the planet.</span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Shipping &amp; Returns</a>
+          <a href="#">Fit Guarantee</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── BACK TO TOP BUTTON ─── -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ─── PRODUCT QUICK VIEW MODAL ─── -->
+  <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-content-grid">
+        <div class="modal-image-col">
+          <img id="modalImg" src="images/diapers_collection.jpg" alt="Reusable Baby Product">
+        </div>
+        <div class="modal-details-col">
+          <span class="badge-pill badge-sky" id="modalCategory" style="margin-bottom: 0.5rem;">Reusable Products</span>
+          <h3 id="modalTitle">Everyday Modern Pocket Diaper</h3>
+          <div class="modal-price-tag" id="modalPrice">$18.50</div>
+          <p id="modalDesc">
+            Crafted with waterproof, breathable TPU and soft stay-dry fleece lining. Features adjustable rise snaps for
+            8–35 lbs birth-to-potty fit.
+          </p>
+          <ul class="modal-specs-list" id="modalSpecs">
+            <li><i class="fa-solid fa-circle-check"></i> <span>OEKO-TEX Standard 100 Certified</span></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Gentle on Sensitive Baby Skin</span></li>
+            <li><i class="fa-solid fa-circle-check"></i> <span>Machine Washable &amp; Built to Last</span></li>
+          </ul>
+          <div style="display:flex; gap:0.8rem; flex-wrap:wrap; margin-top:auto;">
+            <a href="contact.html" id="modalEnquireBtn" class="btn btn-primary" style="flex-grow:1;">
+              <i class="fa-solid fa-envelope"></i> Enquire About This Item
+            </a>
+            <button class="btn btn-secondary btn-add-stash" data-product-name="PureNest Product">
+              <i class="fa-solid fa-plus"></i> Save to Stash
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

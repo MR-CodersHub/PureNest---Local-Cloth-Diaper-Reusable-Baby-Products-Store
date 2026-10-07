@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Getting Started with Reusable Baby Products. Master modern cloth diapers, bamboo wipes, washable nursing pads, wet bags, bandana bibs, and a unified family wash routine.">
+  <title>Getting Started Guide — Reusable Baby Products &amp; Cloth Diapers</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── TOP ANNOUNCEMENT BAR ─── -->
+  <div class="top-announcement">
+    <div class="top-announcement-inner">
+      <div class="top-announcement-perks">
+        <span><i class="fa-solid fa-graduation-cap" style="color: #58A6DF;"></i> First-Time Reusable Parent? We Make It Simple &amp; Stress-Free!</span>
+      </div>
+      <div class="top-announcement-contact">
+        <span><i class="fa-solid fa-phone" style="font-size: 0.8rem; color: #58A6DF;"></i> Parent Helpline: (03) 9419 8234</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SITE HEADER ─── -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="header-brand" aria-label="PureNest Eco Baby Home">
+        <img src="images/logo.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-light">
+        <img src="images/logo-dark.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-dark">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="home-2.html">Home 2</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="getting-started.html" class="active">Getting Started</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="header-util-btn icon-only theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="rtlToggleBtn" class="header-util-btn rtl-toggle-btn" aria-label="Toggle RTL / LTR Layout" title="Toggle RTL Layout">
+          <i class="fa-solid fa-right-left"></i>
+          <span class="rtl-text-label">RTL</span>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Consult
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── MOBILE DRAWER & OVERLAY ─── -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="images/logo.svg" alt="PureNest Logo" class="brand-logo-light" style="height: 38px;">
+      <img src="images/logo-dark.svg" alt="PureNest Logo" class="brand-logo-dark" style="height: 38px;">
+      <button id="mobileNavClose" style="background:none; border:none; font-size:1.4rem; color:var(--text-title); cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="home-2.html">Home 2 <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="products.html">Products <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="getting-started.html" class="active">Getting Started <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="about.html">About <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="blog.html">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="contact.html">Contact <i class="fa-solid fa-chevron-right"></i></a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <div class="mobile-drawer-util-row" style="margin-top:0; padding-top:0; border-top:none; margin-bottom:1rem;">
+        <button class="header-util-btn theme-toggle-btn" id="mobileThemeToggleBtn" aria-label="Toggle Dark / Light Theme">
+          <i class="fa-solid fa-moon"></i>
+          <span>Theme</span>
+        </button>
+        <button class="header-util-btn rtl-toggle-btn" id="mobileRtlToggleBtn" aria-label="Toggle RTL Mode">
+          <i class="fa-solid fa-right-left"></i>
+          <span>RTL / LTR</span>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Book Free Fit Consult
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 1: GUIDE HERO (UNIFIED 440PX HEIGHT SYSTEM)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="page-hero-unified" aria-label="Guide Hero">
+      <div class="container">
+        <div class="hero-grid-2col">
+
+          <div class="hero-content-col">
+            <div class="hero-badge">
+              <span class="badge-pill badge-mint">
+                <i class="fa-solid fa-book-bookmark"></i> Complete Beginner's Masterclass
+              </span>
+            </div>
+
+            <h1>
+              Your Practical Roadmap to <br>
+              <span class="gradient-text">Reusable Baby Care</span>
+            </h1>
+
+            <p class="hero-lead">
+              From your newborn's first cloth change to effortless wash rhythms, insert layering, and daycare prep—everything you need to build confidence with zero guesswork.
+            </p>
+
+            <div class="hero-points-chips">
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-layer-group"></i> 3-Layer Anatomy
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-soap"></i> 2-Cycle Wash Routine
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-calendar-check"></i> Free 1-on-1 Sizing
+              </span>
+            </div>
+
+            <div class="hero-buttons-wrap">
+              <a href="#anatomy" class="btn btn-primary">
+                <i class="fa-solid fa-microscope"></i> Explore Diaper Anatomy
+              </a>
+              <a href="#wash-routine" class="btn btn-secondary">
+                <i class="fa-solid fa-soap"></i> See Wash Routine
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual with Hotspots -->
+          <div class="hero-visual-col">
+            <div class="visual-card-wrap">
+              <img src="images/modern_cloth_diaper_anatomy.jpg"
+                alt="PureNest Modern Cloth Diaper Layering and Anatomy Breakdown">
+
+              <!-- Hotspot 1 -->
+              <div class="story-hotspot hotspot-1">
+                <i class="fa-solid fa-shield-heart" style="color:var(--sky-blue);"></i>
+                <span>Waterproof Shell</span>
+              </div>
+
+              <!-- Hotspot 2 -->
+              <div class="story-hotspot hotspot-2">
+                <i class="fa-solid fa-feather" style="color:var(--pastel-green);"></i>
+                <span>Rash-Free Lining</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 2: ANATOMY OF A MODERN CLOTH DIAPER
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="anatomy" aria-label="Diaper Anatomy">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-mint">
+            <i class="fa-solid fa-microscope"></i> Behind The Design
+          </span>
+          <h2>Anatomy of a Modern Cloth Diaper</h2>
+          <p>
+            Understanding how the three core layers work together makes diapering intuitive and leak-free from day one.
+          </p>
+        </div>
+
+        <div class="modern-anatomy-stage">
+          <div class="anatomy-interactive-wrapper">
+            <img src="images/modern_cloth_diaper_anatomy.jpg" alt="Open modern cloth diaper showing waterproof cover, stay-dry lining, and organic bamboo insert">
+            
+            <!-- Interactive Animated Hotspot Pins -->
+            <button class="hotspot-pin pin-1" title="1. Waterproof TPU Shell" type="button" aria-label="Hotspot 1: TPU Shell">
+              1
+            </button>
+            <button class="hotspot-pin pin-2" title="2. Microfleece Stay-Dry Liner" type="button" aria-label="Hotspot 2: Microfleece Liner">
+              2
+            </button>
+            <button class="hotspot-pin pin-3" title="3. Organic Bamboo &amp; Hemp Insert" type="button" aria-label="Hotspot 3: Bamboo Insert">
+              3
+            </button>
+            <button class="hotspot-pin pin-4" title="4. Double Gussets &amp; Fit Snaps" type="button" aria-label="Hotspot 4: Double Gussets">
+              4
+            </button>
+          </div>
+
+          <div class="anatomy-layers-column">
+            <!-- Layer 1 -->
+            <div class="modern-layer-card">
+              <div class="layer-icon-badge" style="background:var(--sky-blue-light); color:var(--sky-blue-deep);">
+                1
+              </div>
+              <div class="layer-card-info">
+                <div class="layer-card-meta">
+                  <span class="layer-tag" style="color:var(--sky-blue);">Layer 01 &bull; Exterior Guard</span>
+                </div>
+                <h4>Waterproof Breathable TPU Shell</h4>
+                <p>The patterned outer layer is thermally bonded with thermoplastic polyurethane. It stops liquids from escaping onto nursery bedding or baby clothes while letting air vapor circulate freely.</p>
+                <div class="layer-pill-specs">
+                  <span class="spec-chip"><i class="fa-solid fa-shield"></i> 100% Leakproof</span>
+                  <span class="spec-chip"><i class="fa-solid fa-wind"></i> Micro-Porous Breathability</span>
+                  <span class="spec-chip">0% Plasticizer Wax</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 2 -->
+            <div class="modern-layer-card" style="border-left-color:var(--aqua);">
+              <div class="layer-icon-badge" style="background:var(--aqua-light); color:var(--aqua);">
+                2
+              </div>
+              <div class="layer-card-info">
+                <div class="layer-card-meta">
+                  <span class="layer-tag" style="color:var(--aqua);">Layer 02 &bull; Skin-Contact Core</span>
+                </div>
+                <h4>Stay-Dry Microfleece Inner Lining</h4>
+                <p>Urine passes immediately through this velvety, hypoallergenic fleece directly into the insert below. The fabric remains dry to the touch against baby's skin, stopping diaper rash.</p>
+                <div class="layer-pill-specs">
+                  <span class="spec-chip"><i class="fa-solid fa-feather"></i> Velvety Soft</span>
+                  <span class="spec-chip"><i class="fa-solid fa-bolt"></i> Instant Wicking</span>
+                  <span class="spec-chip">Rash Shield</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 3 -->
+            <div class="modern-layer-card" style="border-left-color:var(--pastel-green);">
+              <div class="layer-icon-badge" style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">
+                3
+              </div>
+              <div class="layer-card-info">
+                <div class="layer-card-meta">
+                  <span class="layer-tag" style="color:var(--pastel-green-dark);">Layer 03 &bull; Supercore Absorbency</span>
+                </div>
+                <h4>High-Density Bamboo &amp; Hemp Insert</h4>
+                <p>The "engine" of the diaper. Stuffed into the pocket, these unbleached organic plant layers hold up to 250ml of liquid without leaking when baby sits, rolls, or naps.</p>
+                <div class="layer-pill-specs">
+                  <span class="spec-chip"><i class="fa-solid fa-droplet"></i> Holds 250ml</span>
+                  <span class="spec-chip"><i class="fa-solid fa-leaf"></i> Organic Hemp Fleece</span>
+                  <span class="spec-chip">Anti-Compression</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 4 -->
+            <div class="modern-layer-card" style="border-left-color:var(--warm-peach);">
+              <div class="layer-icon-badge" style="background:var(--warm-peach-light); color:#D97706;">
+                4
+              </div>
+              <div class="layer-card-info">
+                <div class="layer-card-meta">
+                  <span class="layer-tag" style="color:#D97706;">Layer 04 &bull; Growth System</span>
+                </div>
+                <h4>Double Gussets &amp; Adjustable Rise Snaps</h4>
+                <p>Twin elastic barriers around thighs seal against blowouts. Three vertical snap rows adjust the rise to fit your baby seamlessly from 8 lbs up to 35 lbs.</p>
+                <div class="layer-pill-specs">
+                  <span class="spec-chip"><i class="fa-solid fa-expand"></i> 8 lbs to 35 lbs</span>
+                  <span class="spec-chip"><i class="fa-solid fa-lock"></i> Twin Elastic Rims</span>
+                  <span class="spec-chip">Resin Snaps</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 3: REUSABLE BABY PRODUCTS BEYOND DIAPERS (DEDICATED GUIDE)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="beyond-diapers" aria-label="Using Reusables Beyond Diapers">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sage">
+            <i class="fa-solid fa-hands-bubbles"></i> Everyday Essentials
+          </span>
+          <h2>Starting with Reusable Baby Products Beyond Diapers</h2>
+          <p>
+            Reusable parenting is easiest and most rewarding when you incorporate practical washable essentials across your nursery, mealtime, and diaper bag. Here is how to wash, store, carry, and maintain your essentials:
+          </p>
+        </div>
+
+        <div class="beyond-bento-grid">
+          
+          <!-- Product 1: Reusable Bamboo Wipes -->
+          <div class="bento-card">
+            <div class="bento-card-media">
+              <img src="images/wipes_accessories.jpg" alt="Washable soft bamboo baby cloth wipes stacked neatly">
+              <span class="bento-category-tag" style="color:var(--pastel-green-dark);">
+                <i class="fa-solid fa-feather"></i> Diapering &amp; Hands
+              </span>
+              <span class="bento-badge-right" style="background:var(--pastel-green);">1 Wipe = 4 Paper</span>
+            </div>
+            <div class="bento-card-body">
+              <h3>Reusable Bamboo Wipes</h3>
+              <div class="bento-tri-guide">
+                <div class="tri-row" style="border-left-color:var(--pastel-green);">
+                  <strong><i class="fa-solid fa-sparkles"></i> Purpose &amp; Benefits</strong>
+                  Ultra-soft organic bamboo wipes that prevent diaper rash using only warm water. Replaces thousands of single-use wipes.
+                </div>
+                <div class="tri-row" style="border-left-color:var(--pastel-green);">
+                  <strong><i class="fa-solid fa-soap"></i> Routine &amp; Care</strong>
+                  Store dry in a nursery caddy or pack damp in a mini wet bag. Washes easily with regular family laundry.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2: Waterproof Wet Bags -->
+          <div class="bento-card">
+            <div class="bento-card-media">
+              <img src="images/wet_bags.jpg" alt="Waterproof zippered travel wet bag with snap handle">
+              <span class="bento-category-tag" style="color:var(--sky-blue-hover);">
+                <i class="fa-solid fa-bag-shopping"></i> Travel &amp; Nursery
+              </span>
+              <span class="bento-badge-right" style="background:var(--sky-blue);">100% Odor-Lock</span>
+            </div>
+            <div class="bento-card-body">
+              <h3>Waterproof Wet Bags</h3>
+              <div class="bento-tri-guide">
+                <div class="tri-row" style="border-left-color:var(--sky-blue);">
+                  <strong><i class="fa-solid fa-sparkles"></i> Purpose &amp; Benefits</strong>
+                  Heat-bonded TPU membrane locks in moisture and odors without plastic bags. Dual compartments separate clean from soiled items.
+                </div>
+                <div class="tri-row" style="border-left-color:var(--sky-blue);">
+                  <strong><i class="fa-solid fa-soap"></i> Routine &amp; Care</strong>
+                  Snaps onto stroller handles or daycare hooks. Unzip fully and wash at up to 60°C; line dry in shade.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3: Changing Station Mats -->
+          <div class="bento-card">
+            <div class="bento-card-media">
+              <img src="images/quilted_changing_mat.jpg" alt="Organic cotton portable quilted baby changing mat with tie ribbon">
+              <span class="bento-category-tag" style="color:var(--aqua);">
+                <i class="fa-solid fa-baby"></i> Changing Zone
+              </span>
+              <span class="bento-badge-right" style="background:var(--aqua);">Plush &amp; Clean</span>
+            </div>
+            <div class="bento-card-body">
+              <h3>Washable Changing Pads</h3>
+              <div class="bento-tri-guide">
+                <div class="tri-row" style="border-left-color:var(--aqua);">
+                  <strong><i class="fa-solid fa-sparkles"></i> Purpose &amp; Benefits</strong>
+                  Cushioned organic cotton surface with a hidden leakproof core. Creates a hygienic change station anywhere.
+                </div>
+                <div class="tri-row" style="border-left-color:var(--aqua);">
+                  <strong><i class="fa-solid fa-soap"></i> Routine &amp; Care</strong>
+                  Rolls into a compact clutch with snap tie. Machine wash cold or warm; tumble dry low or line dry.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 4: COMPLETE STASH SIZING GUIDE
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="stash-sizing" aria-label="Complete Stash Sizing Guide">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-cubes"></i> Stash Calculator
+          </span>
+          <h2>How Many Reusable Essentials Do You Need?</h2>
+          <p>
+            Here is a realistic checklist of diapers, wipes, bibs, and accessories needed for a stress-free 2-to-3-day wash rhythm:
+          </p>
+        </div>
+
+        <div class="bundles-grid">
+          <!-- Newborn -->
+          <div class="bundle-card">
+            <div class="bundle-header">
+              <span class="badge-pill badge-sky">Newborn (0–3 Months)</span>
+              <h3>Newborn Care Stash</h3>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> <strong>24 – 30 Cloth Diapers</strong> (Pockets / AIO)</li>
+              <li><i class="fa-solid fa-check"></i> <strong>36 Reusable Bamboo Wipes</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>8 Washable Bamboo Nursing Pads</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>4 Waffle Burp Cloths &amp; 6 Washcloths</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>2 Small Travel Wet Bags + 1 Pail Bag</strong></li>
+            </ul>
+          </div>
+
+          <!-- Infant (Featured) -->
+          <div class="bundle-card featured">
+            <div class="bundle-ribbon">Most Popular</div>
+            <div class="bundle-header">
+              <span class="badge-pill badge-mint">Infant (3–12 Months)</span>
+              <h3>Infant Daytime Stash</h3>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> <strong>18 – 24 One-Size Pocket Diapers</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>28 Reusable Bamboo Wipes</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>6 Organic Bandana Drool Bibs</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>6 Hemp Boosters for Long Naps</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>2 Dual-Pocket Daycare Wet Bags</strong></li>
+            </ul>
+          </div>
+
+          <!-- Toddler -->
+          <div class="bundle-card">
+            <div class="bundle-header">
+              <span class="badge-pill badge-peach">Toddler (12–24+ Months)</span>
+              <h3>Toddler &amp; Potty Prep</h3>
+            </div>
+            <ul class="bundle-checklist">
+              <li><i class="fa-solid fa-check"></i> <strong>14 – 18 Diapers &amp; Pull-Up Trainers</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>4 Overnight Heavy Fitted Diapers</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>20 Reusable Bamboo Wipes</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>1 Brass Toilet Bidet Sprayer</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>2 Reusable Snack Wet Bags</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 5: THE UNIFIED FAMILY WASH ROUTINE
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="wash-routine" aria-label="Unified Wash Routine">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-mint">
+            <i class="fa-solid fa-soap"></i> Clean &bull; Fresh &bull; Simple
+          </span>
+          <h2>The Unified Family Wash Routine</h2>
+          <p>
+            Wash all your reusable baby products together in one simple, scientific 3-step machine cycle every 2–3 days:
+          </p>
+        </div>
+
+        <div class="wash-journey-pipeline">
+          <!-- Step 1 -->
+          <div class="wash-pipeline-card">
+            <div class="pipeline-header">
+              <span class="pipeline-step-badge" style="background:var(--sky-blue-light); color:var(--sky-blue-deep);">
+                Step 01 &bull; 30–45 Mins
+              </span>
+              <div class="pipeline-icon-circle" style="background:#EBF5FC; color:var(--sky-blue);">
+                <i class="fa-solid fa-water"></i>
+              </div>
+            </div>
+            <h3>Warm Pre-Wash Cycle</h3>
+            <p>
+              Toss diapers, cloth wipes, bibs, and nursing pads (in mesh bag) into the drum. Run a short 30–45 min warm wash (40°C) with half a dose of normal family laundry detergent.
+            </p>
+            <div class="pipeline-pro-tip">
+              <i class="fa-solid fa-lightbulb"></i>
+              <div><strong>Laundress Tip:</strong> This crucial step flushes out 95% of urine and waste water entirely before the main deep wash.</div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="wash-pipeline-card">
+            <div class="pipeline-header">
+              <span class="pipeline-step-badge" style="background:var(--pastel-green-light); color:var(--pastel-green-dark);">
+                Step 02 &bull; 2+ Hours
+              </span>
+              <div class="pipeline-icon-circle" style="background:#EBF8F2; color:var(--pastel-green);">
+                <i class="fa-solid fa-gauge-high"></i>
+              </div>
+            </div>
+            <h3>Main Cottons Heavy Wash</h3>
+            <p>
+              Run a long cottons/heavy-duty cycle at 40°C or 60°C with full detergent dose. Bulk up the load with small washcloths or socks to create optimal friction and deep cleaning agitation.
+            </p>
+            <div class="pipeline-pro-tip">
+              <i class="fa-solid fa-lightbulb"></i>
+              <div><strong>Laundress Tip:</strong> Normal supermarket laundry detergent works brilliantly. Never buy expensive specialty diaper washes.</div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="wash-pipeline-card">
+            <div class="pipeline-header">
+              <span class="pipeline-step-badge" style="background:var(--warm-peach-light); color:#D97706;">
+                Step 03 &bull; Natural Dry
+              </span>
+              <div class="pipeline-icon-circle" style="background:#FEF3C7; color:#D97706;">
+                <i class="fa-solid fa-sun"></i>
+              </div>
+            </div>
+            <h3>Natural Sun &amp; Air Drying</h3>
+            <p>
+              Hang bamboo inserts, wipes, burp cloths, and bibs on an outdoor line or indoor clothes horse. Natural UV sunlight safely acts as an organic bleach that lifts food stains instantly.
+            </p>
+            <div class="pipeline-pro-tip">
+              <i class="fa-solid fa-lightbulb"></i>
+              <div><strong>Laundress Tip:</strong> Hang waterproof diaper shells and TPU wet bags in the shade to preserve elastic lifespan for years.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 6: COMMON BEGINNER MISTAKES & HOW TO FIX THEM
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="troubleshooting" aria-label="Troubleshooting Common Mistakes">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-peach">
+            <i class="fa-solid fa-wrench"></i> Troubleshooting
+          </span>
+          <h2>Common Beginner Mistakes &amp; Quick Fixes</h2>
+          <p>
+            Running into an issue? Don't worry — every common reusable challenge has a quick, simple solution:
+          </p>
+        </div>
+
+        <div class="troubleshoot-matrix">
+          <!-- Issue 1 -->
+          <div class="diagnostic-card">
+            <div class="diagnostic-card-header" style="background:#FFF5F5;">
+              <div class="diagnostic-badge-row">
+                <span class="diagnostic-alert-pill" style="background:#FED7D7; color:#E53E3E;">
+                  <i class="fa-solid fa-triangle-exclamation"></i> Issue 01
+                </span>
+                <div class="diagnostic-icon-box" style="background:#FED7D7; color:#E53E3E;">
+                  <i class="fa-solid fa-droplet-slash"></i>
+                </div>
+              </div>
+              <h3>Diaper Leaks After 1.5 Hours?</h3>
+              <p class="diagnostic-cause-text">
+                <strong>Probable Cause:</strong> Compression leaks from synthetic microfiber or baby out-wetting single insert capacity.
+              </p>
+            </div>
+            <div class="diagnostic-card-body">
+              <div class="diagnostic-solution-box">
+                <strong><i class="fa-solid fa-circle-check"></i> The Pro Fix:</strong>
+                Pair your bamboo insert with an ultra-slim organic hemp booster. Natural plant fibers hold 4x more liquid without squeezing out when baby sits.
+              </div>
+              <div class="diagnostic-quick-tag">
+                <i class="fa-solid fa-bolt"></i> Fix time: Instant with booster
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 2 -->
+          <div class="diagnostic-card">
+            <div class="diagnostic-card-header" style="background:#FFFBEB;">
+              <div class="diagnostic-badge-row">
+                <span class="diagnostic-alert-pill" style="background:#FEF3C7; color:#D97706;">
+                  <i class="fa-solid fa-triangle-exclamation"></i> Issue 02
+                </span>
+                <div class="diagnostic-icon-box" style="background:#FEF3C7; color:#D97706;">
+                  <i class="fa-solid fa-wind"></i>
+                </div>
+              </div>
+              <h3>Cloth Wipes Feeling Stiff?</h3>
+              <p class="diagnostic-cause-text">
+                <strong>Probable Cause:</strong> Line-drying in mineral-heavy hard water or mild soap detergent residue buildup.
+              </p>
+            </div>
+            <div class="diagnostic-card-body">
+              <div class="diagnostic-solution-box">
+                <strong><i class="fa-solid fa-circle-check"></i> The Pro Fix:</strong>
+                Give dry wipes a brisk 5-minute tumble dry on low heat, or rub damp wipes between your hands before folding to immediately revive plush softness.
+              </div>
+              <div class="diagnostic-quick-tag" style="background:#FEF3C7; color:#92400E;">
+                <i class="fa-solid fa-hands-bubbles"></i> 5-min quick tumble restores pile
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 3 -->
+          <div class="diagnostic-card">
+            <div class="diagnostic-card-header" style="background:#ECFDF5;">
+              <div class="diagnostic-badge-row">
+                <span class="diagnostic-alert-pill" style="background:#A7F3D0; color:#047857;">
+                  <i class="fa-solid fa-triangle-exclamation"></i> Issue 03
+                </span>
+                <div class="diagnostic-icon-box" style="background:#A7F3D0; color:#047857;">
+                  <i class="fa-solid fa-ban"></i>
+                </div>
+              </div>
+              <h3>Water Beading on Diapers?</h3>
+              <p class="diagnostic-cause-text">
+                <strong>Probable Cause:</strong> Accidental fabric softener use. Softeners coat microfibers in water-repellent silicone film.
+              </p>
+            </div>
+            <div class="diagnostic-card-body">
+              <div class="diagnostic-solution-box">
+                <strong><i class="fa-solid fa-circle-check"></i> The Pro Fix:</strong>
+                Never use softeners. Run affected diapers through a warm 60°C wash with 1 cup warm water and heavy-duty detergent to dissolve the coating completely.
+              </div>
+              <div class="diagnostic-quick-tag">
+                <i class="fa-solid fa-arrows-rotate"></i> 1 warm wash strip resets fabric
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 4 -->
+          <div class="diagnostic-card">
+            <div class="diagnostic-card-header" style="background:#EFF6FF;">
+              <div class="diagnostic-badge-row">
+                <span class="diagnostic-alert-pill" style="background:#DBEAFE; color:#1D4ED8;">
+                  <i class="fa-solid fa-triangle-exclamation"></i> Issue 04
+                </span>
+                <div class="diagnostic-icon-box" style="background:#DBEAFE; color:#1D4ED8;">
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+              </div>
+              <h3>Lingering Ammonia Smell?</h3>
+              <p class="diagnostic-cause-text">
+                <strong>Probable Cause:</strong> Insufficient wash temperature, inadequate detergent dose, or closed plastic buckets trapping heat.
+              </p>
+            </div>
+            <div class="diagnostic-card-body">
+              <div class="diagnostic-solution-box">
+                <strong><i class="fa-solid fa-circle-check"></i> The Pro Fix:</strong>
+                Switch from airtight buckets to an open-air dry pail mesh bag. Wash every 2 days using a 60°C main cotton wash with full recommended detergent dose.
+              </div>
+              <div class="diagnostic-quick-tag" style="background:#DBEAFE; color:#1E40AF;">
+                <i class="fa-solid fa-temperature-arrow-up"></i> 60°C cycle eliminates ammonia
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 7: FREQUENTLY ASKED BEGINNER QUESTIONS
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="beginner-faqs" aria-label="Beginner FAQs">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-circle-question"></i> Parent FAQs
+          </span>
+          <h2>Frequently Asked Beginner Questions</h2>
+          <p>
+            Quick answers to the questions every expecting or new parent asks us:
+          </p>
+        </div>
+
+        <div class="faq-accordion-container">
+          <div class="faq-item active">
+            <button class="faq-question-btn" type="button">
+              <span>Do I have to wash cloth diapers and reusable wipes every single day?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                No! Most modern cloth families wash every 2 to 3 days. Soiled items are stored dry in an airy laundry basket or hanging wet bag. Running a short pre-wash every 1–2 days takes only 30 minutes, and the main wash happens twice a week.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Can I use reusable wipes on a baby with sensitive eczema?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Reusable bamboo wipes are the gold standard recommended by pediatric dermatologists! Commercial wet wipes contain benzyl alcohol and artificial fragrances that sting raw eczema. Organic bamboo wipes with plain lukewarm water are 100% soothing and chemical-free.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>How do I transport dirty wipes and diapers when leaving the house?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Use our Dual-Pocket Waterproof Wet Bag! Clean diapers and wipes stay in the front pocket, and soiled items go into the main zippered waterproof compartment. The sealed seams lock in 100% of moisture and odors.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 8: Free Fit Check Consultation CTA -->
+        <div class="cta-banner" style="margin-top: 4.5rem;">
+          <div class="cta-banner-content">
+            <span class="badge-pill badge-sage">
+              <i class="fa-solid fa-video"></i> Free 1-on-1 Assistance
+            </span>
+            <h2>Want a Free Personal Diaper &amp; Care Kit Fit Check?</h2>
+            <p>
+              Send us a quick photo or hop on a 15-minute video call with our Melbourne diaper consultants. We will diagnose your fit, check your rise snaps, and verify your wash routine for free!
+            </p>
+            <div class="cta-banner-actions">
+              <a href="contact.html" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-calendar-check"></i> Book Free Fit Check
+              </a>
+              <a href="products.html" class="btn btn-secondary btn-lg">
+                <i class="fa-solid fa-basket-shopping"></i> Shop Reusable Products
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-bio">
+          <a href="index.html">
+            <img src="images/logo-dark.svg" alt="PureNest Logo" style="height: 44px;">
+          </a>
+          <p>
+            PureNest Eco Baby Reusables — Empowering families to choose sustainable, chemical-free cloth diapering and reusable baby products with confidence, comfort, and local care.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-circle" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Guide Links</h5>
+          <ul class="footer-links-list">
+            <li><a href="#anatomy">Diaper Anatomy</a></li>
+            <li><a href="#beyond-diapers">Reusables Beyond Diapers</a></li>
+            <li><a href="#stash-sizing">Stash Size Guide</a></li>
+            <li><a href="#wash-routine">Unified Wash Routine</a></li>
+            <li><a href="#troubleshooting">Beginner Troubleshooting</a></li>
+            <li><a href="#beginner-faqs">Common FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Collections</h5>
+          <ul class="footer-links-list">
+            <li><a href="products.html?category=cloth-diapers">Pocket Cloth Diapers</a></li>
+            <li><a href="products.html?category=wipes">Washable Bamboo Wipes</a></li>
+            <li><a href="products.html?category=feeding">Bandana Bibs &amp; Burp Cloths</a></li>
+            <li><a href="products.html?category=care">Bamboo Nursing Pads</a></li>
+            <li><a href="products.html?category=accessories">Waterproof Wet Bags</a></li>
+            <li><a href="products.html?category=bundles">Starter Care Kits</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter-box">
+          <h5>Visit Our Workshop</h5>
+          <p style="font-size: 0.88rem; margin-bottom: 0.6rem;">
+            <i class="fa-solid fa-location-dot" style="color:var(--sky-blue); margin-right:6px;"></i>
+            42 Greenleaf Way, Eco Quarter, Melbourne VIC 3000
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 1.2rem;">
+            <i class="fa-solid fa-calendar-day" style="color:var(--pastel-green); margin-right:6px;"></i>
+            Free "Cloth 101" Workshops Every Saturday at 10:30am
+          </p>
+          <h5>Join Our Mailing List</h5>
+          <form class="footer-subscribe-form">
+            <input type="email" placeholder="Your email address..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 PureNest Eco Baby Reusables. All rights reserved. Gentle on baby, kinder to the planet.</span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Wash Guarantee</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

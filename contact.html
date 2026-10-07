@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact PureNest Eco Baby in Melbourne. Enquire about cloth diapers, reusable bamboo wipes, nursing pads, wet bags, or book a free 1-on-1 baby care consultation.">
+  <title>Contact &amp; Product Enquiries — PureNest Eco Baby Reusables</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── TOP ANNOUNCEMENT BAR ─── -->
+  <div class="top-announcement">
+    <div class="top-announcement-inner">
+      <div class="top-announcement-perks">
+        <span><i class="fa-solid fa-comments" style="color: #58A6DF;"></i> No Question is Too Silly — We are Fellow Reusable Parents!</span>
+      </div>
+      <div class="top-announcement-contact">
+        <span><i class="fa-solid fa-clock" style="font-size: 0.8rem; color: #5BB381;"></i> Responses within 24 hours</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SITE HEADER ─── -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="header-brand" aria-label="PureNest Eco Baby Home">
+        <img src="images/logo.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-light">
+        <img src="images/logo-dark.svg" alt="PureNest Eco Baby Reusable Cloth Diapers &amp; Baby Products Logo" class="brand-logo-dark">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="home-2.html">Home 2</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="getting-started.html">Getting Started</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="header-util-btn icon-only theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="rtlToggleBtn" class="header-util-btn rtl-toggle-btn" aria-label="Toggle RTL / LTR Layout" title="Toggle RTL Layout">
+          <i class="fa-solid fa-right-left"></i>
+          <span class="rtl-text-label">RTL</span>
+        </button>
+        <a href="#contact-form-section" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Consult
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── MOBILE DRAWER & OVERLAY ─── -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="images/logo.svg" alt="PureNest Logo" class="brand-logo-light" style="height: 38px;">
+      <img src="images/logo-dark.svg" alt="PureNest Logo" class="brand-logo-dark" style="height: 38px;">
+      <button id="mobileNavClose" style="background:none; border:none; font-size:1.4rem; color:var(--text-title); cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="home-2.html">Home 2 <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="products.html">Products <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="getting-started.html">Getting Started <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="about.html">About <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="blog.html">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="contact.html" class="active">Contact <i class="fa-solid fa-chevron-right"></i></a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <div class="mobile-drawer-util-row" style="margin-top:0; padding-top:0; border-top:none; margin-bottom:1rem;">
+        <button class="header-util-btn theme-toggle-btn" id="mobileThemeToggleBtn" aria-label="Toggle Dark / Light Theme">
+          <i class="fa-solid fa-moon"></i>
+          <span>Theme</span>
+        </button>
+        <button class="header-util-btn rtl-toggle-btn" id="mobileRtlToggleBtn" aria-label="Toggle RTL Mode">
+          <i class="fa-solid fa-right-left"></i>
+          <span>RTL / LTR</span>
+        </button>
+      </div>
+      <a href="#contact-form-section" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Book Free Fit Consult
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 1: FRIENDLY ENQUIRY HERO (UNIFIED 440PX HEIGHT SYSTEM)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="page-hero-unified" aria-label="Contact Hero">
+      <div class="container">
+        <div class="hero-grid-2col">
+
+          <div class="hero-content-col">
+            <div class="hero-badge">
+              <span class="badge-pill badge-sky">
+                <i class="fa-solid fa-headset"></i> We're Here For You &bull; 7 Days a Week
+              </span>
+            </div>
+
+            <h1>
+              Connect With Our <br>
+              <span class="gradient-text">Baby Care Specialists</span>
+            </h1>
+
+            <p class="hero-lead">
+              Whether you need advice choosing cloth diapers, want guidance on washable wipes, or would like to visit our Melbourne boutique, our friendly team is eager to help.
+            </p>
+
+            <div class="hero-points-chips">
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-store"></i> 42 Greenleaf Way, Melbourne
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-clock"></i> Reply Under 2 Hours
+              </span>
+              <span class="hero-point-tag">
+                <i class="fa-solid fa-video"></i> Free Virtual Consults
+              </span>
+            </div>
+
+            <div class="hero-buttons-wrap">
+              <a href="#contact-form-section" class="btn btn-primary">
+                <i class="fa-solid fa-calendar-check"></i> Book Free Fit Consult
+              </a>
+              <a href="#consult-visit-section" class="btn btn-secondary">
+                <i class="fa-solid fa-location-dot"></i> Visit In Store
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual with Hotspots -->
+          <div class="hero-visual-col">
+            <div class="visual-card-wrap">
+              <img src="images/store_boutique.jpg"
+                alt="PureNest Melbourne Boutique Store Front and Consultation Space">
+
+              <!-- Hotspot 1 -->
+              <div class="story-hotspot hotspot-1">
+                <i class="fa-solid fa-store" style="color:var(--sky-blue);"></i>
+                <span>Melbourne Boutique</span>
+              </div>
+
+              <!-- Hotspot 2 -->
+              <div class="story-hotspot hotspot-2">
+                <i class="fa-solid fa-calendar-check" style="color:var(--pastel-green);"></i>
+                <span>Free In-Store Fittings</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 2: STORE & CONTACT INFORMATION CHANNELS (REDESIGNED)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" style="padding-top: 3.5rem; padding-bottom: 3.5rem;" aria-label="Store Information">
+      <div class="container">
+        <div class="contact-channels-grid">
+          
+          <!-- Channel Card 1: Boutique -->
+          <div class="contact-channel-card theme-sky">
+            <div class="channel-card-top">
+              <span class="channel-pill-tag tag-sky">
+                <i class="fa-solid fa-store"></i> In-Store
+              </span>
+              <span class="channel-status-indicator">
+                <i class="fa-solid fa-location-dot" style="color:var(--sky-blue);"></i> Melbourne
+              </span>
+            </div>
+
+            <div class="channel-icon-disc disc-sky">
+              <i class="fa-solid fa-shop"></i>
+            </div>
+
+            <h3>Melbourne Boutique</h3>
+            <span class="channel-tagline">Touch, test &amp; get sized in-person</span>
+
+            <div class="channel-content-body">
+              <div class="channel-address-box">
+                <strong style="color:var(--text-title); display:block; margin-bottom:0.2rem;">PureNest Baby Showroom</strong>
+                42 Greenleaf Way, Eco Quarter<br>
+                Melbourne VIC 3000, Australia
+                
+                <div class="channel-mini-perks">
+                  <span><i class="fa-solid fa-square-parking" style="color:var(--sky-blue);"></i> Free Pram Parking</span>
+                  <span><i class="fa-solid fa-baby" style="color:var(--pastel-green);"></i> Stocked Change Station</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="#boutique-visit" class="channel-action-btn btn-sky-soft">
+              <i class="fa-solid fa-diamond-turn-right"></i> Parking &amp; Directions
+            </a>
+          </div>
+
+          <!-- Channel Card 2: Helpline & WhatsApp -->
+          <div class="contact-channel-card theme-mint">
+            <div class="channel-card-top">
+              <span class="channel-pill-tag tag-mint">
+                <i class="fa-brands fa-whatsapp"></i> Live Chat
+              </span>
+              <span class="channel-status-indicator">
+                <i class="fa-solid fa-headset" style="color:var(--pastel-green-dark);"></i> Instant Advice
+              </span>
+            </div>
+
+            <div class="channel-icon-disc disc-mint">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+
+            <h3>Helpline &amp; SMS</h3>
+            <span class="channel-tagline">Direct line to diapering specialists</span>
+
+            <div class="channel-content-body">
+              <a href="tel:0394198234" class="channel-link-item" aria-label="Call Direct Line">
+                <div class="cli-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="cli-text">
+                  <span class="cli-label">Direct Line</span>
+                  <span class="cli-val">(03) 9419 8234</span>
+                </div>
+              </a>
+
+              <a href="https://wa.me/61480021983" target="_blank" rel="noopener noreferrer" class="channel-link-item whatsapp-cli" aria-label="Chat on WhatsApp">
+                <div class="cli-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="cli-text">
+                  <span class="cli-label">WhatsApp Helpline</span>
+                  <span class="cli-val">+61 480 021 983</span>
+                </div>
+              </a>
+            </div>
+
+            <a href="https://wa.me/61480021983" target="_blank" rel="noopener noreferrer" class="channel-action-btn btn-mint-soft">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+
+          <!-- Channel Card 3: Email Enquiries -->
+          <div class="contact-channel-card theme-purple">
+            <div class="channel-card-top">
+              <span class="channel-pill-tag tag-purple">
+                <i class="fa-regular fa-paper-plane"></i> Quick Reply
+              </span>
+              <span class="channel-status-indicator">
+                <i class="fa-solid fa-bolt" style="color:#7C3AED;"></i> &lt; 4 hr reply
+              </span>
+            </div>
+
+            <div class="channel-icon-disc disc-purple">
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+
+            <h3>Email Enquiries</h3>
+            <span class="channel-tagline">Fit checks &amp; customer care team</span>
+
+            <div class="channel-content-body">
+              <a href="mailto:hello@purenestreusables.com.au" class="channel-link-item" aria-label="Send general enquiry email">
+                <div class="cli-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div class="cli-text">
+                  <span class="cli-label">General Enquiries</span>
+                  <span class="cli-val">hello@purenest.com.au</span>
+                </div>
+              </a>
+
+              <a href="mailto:fitchecks@purenestreusables.com.au" class="channel-link-item" aria-label="Send fit photo check email">
+                <div class="cli-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                <div class="cli-text">
+                  <span class="cli-label">Photo Fit Check</span>
+                  <span class="cli-val">fitchecks@purenest.com.au</span>
+                </div>
+              </a>
+            </div>
+
+            <a href="mailto:hello@purenestreusables.com.au" class="channel-action-btn btn-purple-soft">
+              <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+            </a>
+          </div>
+
+          <!-- Channel Card 4: Store Hours -->
+          <div class="contact-channel-card theme-amber">
+            <div class="channel-card-top">
+              <span class="channel-pill-tag tag-amber">
+                <i class="fa-solid fa-door-open"></i> Walk-Ins
+              </span>
+              <span class="channel-status-indicator">
+                <span class="live-pulse-dot"></span> Open Today
+              </span>
+            </div>
+
+            <div class="channel-icon-disc disc-amber">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+
+            <h3>Opening Hours</h3>
+            <span class="channel-tagline">Open 7 days a week for parents</span>
+
+            <div class="channel-content-body">
+              <div class="channel-hours-list">
+                <div class="hours-row">
+                  <span>Mon – Fri</span>
+                  <strong>9:00 AM – 5:30 PM</strong>
+                </div>
+                <div class="hours-row">
+                  <span>Saturday</span>
+                  <strong>9:30 AM – 4:00 PM</strong>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span>
+                  <strong>10:00 AM – 2:00 PM</strong>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact-form-section" class="channel-action-btn btn-amber-soft">
+              <i class="fa-solid fa-calendar-check"></i> Book 1-on-1 Consult
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 3: INTERACTIVE ENQUIRY FORM (ALL REUSABLE CATEGORIES)
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="contact-form-section" aria-label="Enquiry Form">
+      <div class="container">
+        <div class="contact-split-grid">
+          
+          <!-- Form Left -->
+          <div class="contact-form-card">
+            <span class="badge-pill badge-sky">
+              <i class="fa-solid fa-paper-plane"></i> Product Enquiry
+            </span>
+            <h2 style="margin-bottom: 0.6rem;">Book a Consult or Enquire About Products</h2>
+            <p style="color:var(--text-muted); font-size:0.95rem; margin-bottom:2rem;">
+              Tell us what reusable essentials you're looking for, and our team will get back to you with custom sizing tips or bundle recommendations:
+            </p>
+
+            <form id="contactEnquiryForm">
+              <div class="form-group-row">
+                <div class="form-field">
+                  <label for="formFullName">Your Full Name *</label>
+                  <input type="text" id="formFullName" placeholder="e.g. Sarah Miller" required>
+                </div>
+                <div class="form-field">
+                  <label for="formEmail">Email Address *</label>
+                  <input type="email" id="formEmail" placeholder="sarah@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-field">
+                  <label for="formPhone">Phone Number</label>
+                  <input type="tel" id="formPhone" placeholder="0400 123 456">
+                </div>
+                <div class="form-field">
+                  <label for="formBabyAge">Baby's Current Age / Due Date</label>
+                  <select id="formBabyAge">
+                    <option value="expecting">Expecting / Pregnant</option>
+                    <option value="newborn">Newborn (0–3 months)</option>
+                    <option value="infant" selected>Infant (3–12 months)</option>
+                    <option value="toddler">Toddler (12–24+ months)</option>
+                    <option value="twins">Expecting or Have Twins!</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Product Interest Dropdown Covering ALL Reusable Categories -->
+              <div class="form-field">
+                <label for="formProductInterest">Select Reusable Product Interest *</label>
+                <select id="formProductInterest" required>
+                  <option value="all-in-one-kit">Complete Baby Care Kit ($119–$519 Bundles)</option>
+                  <option value="cloth-diapers">Reusable Cloth Diapers (Pocket, AIO, Fitteds)</option>
+                  <option value="reusable-wipes">Reusable Bamboo Cloth Wipes &amp; Wipe Pouches</option>
+                  <option value="changing-pads">Washable Changing Pads &amp; Travel Mats</option>
+                  <option value="inserts-liners">Diaper Inserts, Hemp Boosters &amp; Fleece Liners</option>
+                  <option value="wet-bags">Waterproof Wet Bags &amp; Diaper Pails</option>
+                  <option value="nursing-pads">Washable Bamboo Nursing Breast Pads</option>
+                  <option value="bibs-burp-cloths">Reusable Bandana Bibs &amp; Burp Cloths</option>
+                  <option value="bath-feeding">Baby Washcloths &amp; Reusable Feeding Accessories</option>
+                  <option value="fit-check-consult">Free 1-on-1 Diaper &amp; Care Fit Check</option>
+                  <option value="wash-routine">Washing Routine &amp; Laundry Troubleshooting</option>
+                  <option value="other">Other General Inquiry</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="formMessage">How Can We Help You? *</label>
+                <textarea id="formMessage" placeholder="Tell us what you'd like guidance with (e.g. diaper fit, how many wipes to start with, or daycare stash requirements)..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 0.8rem;">
+                <i class="fa-solid fa-paper-plane"></i> Send Reusable Product Enquiry
+              </button>
+            </form>
+          </div>
+
+          <!-- Sidebar Right: Helpful Perks & Workshop -->
+          <div class="contact-info-panel">
+            <div class="contact-info-card consult-perks-card">
+              <span class="badge-pill badge-sage">
+                <i class="fa-solid fa-calendar-check"></i> What to Expect
+              </span>
+              <h3 style="margin-bottom:0.8rem;">Free 1-on-1 Reusable Consultation</h3>
+              <ul class="benefit-item-list" style="margin-top:1rem; gap:1rem;">
+                <li class="benefit-list-item">
+                  <div class="benefit-check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="benefit-item-content">
+                    <h4>Tailored Care Kit Sizing</h4>
+                    <p>We calculate exactly how many diapers, wipes, and bibs match your laundry rhythm so you never overspend.</p>
+                  </div>
+                </li>
+                <li class="benefit-list-item">
+                  <div class="benefit-check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="benefit-item-content">
+                    <h4>Custom Wash Routine Prescription</h4>
+                    <p>We inspect your washing machine model and local water hardness for a foolproof, odor-free routine.</p>
+                  </div>
+                </li>
+                <li class="benefit-list-item">
+                  <div class="benefit-check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="benefit-item-content">
+                    <h4>Zero High-Pressure Sales</h4>
+                    <p>No pushy sales pitches. Just honest, practical guidance from parent to parent.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-info-card">
+              <span class="badge-pill badge-mint">
+                <i class="fa-solid fa-mug-saucer"></i> Free In-Person Workshop
+              </span>
+              <h3>Saturday Morning "Cloth 101" Tea</h3>
+              <p style="font-size:0.92rem; color:var(--text-body); margin:0.8rem 0 1.2rem;">
+                Join us every Saturday at 10:30 AM at our Melbourne shop for a friendly 45-minute demonstration covering cloth diapers, bamboo wipes, and wet bags.
+              </p>
+              <div style="font-size:0.88rem; font-weight:700; color:var(--sky-blue-deep);">
+                <i class="fa-solid fa-circle-info"></i> No registration needed — walk-ins warmly welcome with prams!
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 4: LOCAL BOUTIQUE VISIT & LOCATION DETAILS
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="boutique-visit" aria-label="Visit Our Boutique">
+      <div class="container">
+        <div class="anatomy-showcase">
+          <div class="anatomy-image-box">
+            <img src="images/store_boutique.jpg" alt="Interior view of PureNest local baby boutique shop with friendly staff and organized reusable essentials">
+          </div>
+
+          <div>
+            <span class="badge-pill badge-mint">
+              <i class="fa-solid fa-store"></i> Visit Our Local Store
+            </span>
+            <h2>Come Touch, Feel &amp; Test In Person</h2>
+            <p class="text-lead">
+              Shopping for baby products online can feel overwhelming. At our Melbourne boutique, you can touch our organic bamboo velour wipes, examine snap configurations on diapers, and test changing accessories in person.
+            </p>
+
+            <div style="margin:2rem 0; display:flex; flex-direction:column; gap:1.1rem;">
+              <div style="display:flex; gap:0.9rem; align-items:flex-start;">
+                <i class="fa-solid fa-square-parking" style="color:var(--sky-blue); font-size:1.3rem; margin-top:2px;"></i>
+                <div>
+                  <strong>Dedicated Pram Parking &amp; Easy Street Parking:</strong>
+                  <p style="font-size:0.9rem; margin:0;">Free 2-hour customer parking directly in front of the shop and adjacent green reserve.</p>
+                </div>
+              </div>
+
+              <div style="display:flex; gap:0.9rem; align-items:flex-start;">
+                <i class="fa-solid fa-baby" style="color:var(--pastel-green); font-size:1.3rem; margin-top:2px;"></i>
+                <div>
+                  <strong>Complimentary Cloth Changing Station:</strong>
+                  <p style="font-size:0.9rem; margin:0;">Clean, private diaper changing room fully equipped with PureNest diapers and warm cloth wipes for you to try on your baby.</p>
+                </div>
+              </div>
+
+              <div style="display:flex; gap:0.9rem; align-items:flex-start;">
+                <i class="fa-solid fa-bag-shopping" style="color:var(--warm-peach); font-size:1.3rem; margin-top:2px;"></i>
+                <div>
+                  <strong>Free Same-Day Click &amp; Collect:</strong>
+                  <p style="font-size:0.9rem; margin:0;">Order online and pick up at the shop within 2 business hours packed in plastic-free brown bags.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 5: FREQUENTLY ASKED CONTACT ENQUIRIES ACCORDION
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-sky" id="contact-faq" aria-label="Contact FAQ">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill badge-sky">
+            <i class="fa-solid fa-circle-question"></i> Help &amp; Enquiries
+          </span>
+          <h2>Frequently Asked Questions Before Purchasing</h2>
+          <p>
+            Common questions parents ask when reaching out to our team:
+          </p>
+        </div>
+
+        <div class="faq-accordion-container">
+          <div class="faq-item active">
+            <button class="faq-question-btn" type="button">
+              <span>What happens if the diapers or care products don't suit our routine?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                We offer a <strong>30-Day Fit Guarantee</strong>! If you order a starter bundle and struggle with leaks or sizing, our team will hop on a video call to troubleshoot your fit. If you are still unsatisfied, return unwashed items for a full refund or exchange.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Can I buy individual items like wipes, bibs, or wet bags without buying diapers?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Yes! Hundreds of our customers only use our bamboo wipes, bandana bibs, or wet bags even while using disposables. You can order any item individually.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Do you offer local pickup for Melbourne parents?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Yes! Free click-and-collect is available 7 days a week from our Melbourne boutique at 42 Greenleaf Way. Simply select "Local Pickup" during checkout or message us to hold items.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Do you ship interstate across Australia and New Zealand?</span>
+              <div class="faq-icon-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="faq-answer-content">
+              <p>
+                Yes! We provide 100% carbon-neutral dispatch across all Australian states and New Zealand using Australia Post and Sendle compostable satchels. Orders over $99 receive free standard delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SECTION 6: FINAL REASSURANCE CTA
+         ═════════════════════════════════════════════════════════════════ -->
+    <section class="section section-cream" id="reassurance-cta" aria-label="Final Reassurance CTA">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-content">
+            <span class="badge-pill badge-sage">
+              <i class="fa-solid fa-heart-circle-bolt"></i> Fellow Parents
+            </span>
+            <h2>No Question is Too Silly — We are Here to Help!</h2>
+            <p>
+              From 'how many bamboo wipes do I need?' to 'will these diapers fit my chunky-thighed 4-month-old?', we've answered it all. Reach out today and begin your gentle, sustainable baby care journey.
+            </p>
+            <div class="cta-banner-actions">
+              <a href="tel:0394198234" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-phone"></i> Call Us: (03) 9419 8234
+              </a>
+              <a href="products.html" class="btn btn-secondary btn-lg">
+                <i class="fa-solid fa-basket-shopping"></i> Shop Reusable Products
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-bio">
+          <a href="index.html">
+            <img src="images/logo-dark.svg" alt="PureNest Logo" style="height: 44px;">
+          </a>
+          <p>
+            PureNest Eco Baby Reusables — Local Melbourne store dedicated to helping parents embrace gentle, leak-free cloth diapering and reusable baby products with zero guilt, zero waste, and maximum savings.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-circle" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home-2.html">Home 2</a></li>
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="getting-started.html">Getting Started Guide</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Collections</h5>
+          <ul class="footer-links-list">
+            <li><a href="products.html?category=cloth-diapers">Pocket Cloth Diapers</a></li>
+            <li><a href="products.html?category=wipes">Washable Bamboo Wipes</a></li>
+            <li><a href="products.html?category=feeding">Bandana Bibs &amp; Burp Cloths</a></li>
+            <li><a href="products.html?category=care">Bamboo Nursing Pads</a></li>
+            <li><a href="products.html?category=accessories">Waterproof Wet Bags</a></li>
+            <li><a href="products.html?category=bundles">Starter Bundles</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter-box">
+          <h5>Local Boutique Address</h5>
+          <p style="font-size: 0.88rem; margin-bottom: 0.6rem;">
+            <i class="fa-solid fa-location-dot" style="color:var(--sky-blue); margin-right:6px;"></i>
+            42 Greenleaf Way, Eco Quarter, Melbourne VIC 3000
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 1.2rem;">
+            <i class="fa-solid fa-phone" style="color:var(--pastel-green); margin-right:6px;"></i>
+            (03) 9419 8234
+          </p>
+          <h5>Newsletter &amp; 10% Off</h5>
+          <form class="footer-subscribe-form">
+            <input type="email" placeholder="Your email address..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 PureNest Eco Baby Reusables. All rights reserved. Gentle on baby, kinder to the planet.</span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Store Directions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
