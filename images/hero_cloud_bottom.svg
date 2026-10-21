@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240" width="100%" height="100%" preserveAspectRatio="none" fill="none">
+  <defs>
+    <!-- Cloud Layer Soft Shadow -->
+    <filter id="cloudSoftShadow" x="-10%" y="-40%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="-8" stdDeviation="12" flood-color="#4AAAD8" flood-opacity="0.18"/>
+    </filter>
+    <filter id="backCloudShadow" x="-10%" y="-40%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="-6" stdDeviation="10" flood-color="#55B5E4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- BACK CLOUD LAYER (Subtle depth) -->
+  <g filter="url(#backCloudShadow)" opacity="0.75" fill="#EBF7FE">
+    <!-- Left Mound -->
+    <circle cx="120" cy="140" r="110"/>
+    <circle cx="280" cy="120" r="130"/>
+    <circle cx="450" cy="130" r="115"/>
+    <!-- Center Mounds -->
+    <circle cx="620" cy="110" r="125"/>
+    <circle cx="780" cy="100" r="135"/>
+    <circle cx="940" cy="120" r="120"/>
+    <!-- Right Mounds -->
+    <circle cx="1120" cy="105" r="130"/>
+    <circle cx="1300" cy="125" r="120"/>
+    <circle cx="1440" cy="135" r="110"/>
+    <rect x="0" y="140" width="1440" height="100"/>
+  </g>
+
+  <!-- FRONT CLOUD LAYER (Pure White 3D Puffy Horizon) -->
+  <g filter="url(#cloudSoftShadow)" fill="#FFFFFF">
+    <!-- Far Left Puffs -->
+    <circle cx="0" cy="150" r="110"/>
+    <circle cx="140" cy="160" r="115"/>
+    <circle cx="260" cy="140" r="125"/>
+    
+    <!-- Left-Center Puffs -->
+    <circle cx="400" cy="155" r="120"/>
+    <circle cx="530" cy="140" r="130"/>
+    
+    <!-- Central Stage Puffs (Directly supporting the crawling baby) -->
+    <circle cx="680" cy="150" r="125"/>
+    <circle cx="820" cy="140" r="135"/>
+    <circle cx="960" cy="150" r="120"/>
+
+    <!-- Right Puffs -->
+    <circle cx="1100" cy="145" r="130"/>
+    <circle cx="1250" cy="155" r="125"/>
+    <circle cx="1380" cy="140" r="120"/>
+    <circle cx="1440" cy="150" r="110"/>
+
+    <!-- Fill Solid White to Bottom -->
+    <rect x="0" y="160" width="1440" height="80"/>
+  </g>
+</svg>

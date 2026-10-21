@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <!-- Embedded Typography for Consistent Standalone & Cross-Browser Rendering -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&amp;family=Quicksand:wght@600;700;800&amp;display=swap');
+      .pn-title-dark {
+        font-family: 'Quicksand', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 26px;
+        letter-spacing: -0.4px;
+      }
+      .pn-subtitle-dark {
+        font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 9.6px;
+        font-weight: 800;
+        letter-spacing: 2.8px;
+      }
+    </style>
+
+    <!-- Luminous Brand Gradients (Dark Mode) -->
+    <!-- Luminous Azure & Electric Cyan for Nurturing Nest Cradle -->
+    <linearGradient id="pnNestDark" x1="12%" y1="100%" x2="88%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="48%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <!-- Luminous Emerald & Mint Teal for Sprout Leaves -->
+    <linearGradient id="pnLeafDark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="55%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <!-- Luminous Amber/Coral for Cradled Baby Essence -->
+    <linearGradient id="pnBabyDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+
+    <!-- Luminous Foundation Halo Base -->
+    <linearGradient id="pnHaloDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 58, 88, 0.6)"/>
+      <stop offset="100%" stop-color="rgba(16, 48, 40, 0.45)"/>
+    </linearGradient>
+
+    <!-- Luminous Glow Shadow -->
+    <filter id="pnEmblemShadowDark" x="-12%" y="-12%" width="128%" height="128%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#38BDF8" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- ─── LOGOMARK ICON (Dark Mode Luminous Palette) ─── -->
+  <g transform="translate(4, 4)" filter="url(#pnEmblemShadowDark)">
+    <!-- Soft Rounded Foundation Base -->
+    <rect x="0" y="0" width="56" height="56" rx="18" fill="url(#pnHaloDark)"/>
+    <rect x="0.75" y="0.75" width="54.5" height="54.5" rx="17.25" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1.2"/>
+
+    <!-- Nest Cradle Arc (Luminous Cyan Cradle) -->
+    <path d="M14 29C14 37.8 20.2 44.8 28.5 45C37.2 45.2 44.2 38.5 43.5 30.5C43 24.8 39.2 20.2 34.8 17C33.9 16.3 32.8 17.2 33.3 18.2C35.2 22 35.8 26.2 34.2 30.2C32.2 34.8 27.5 37.8 22.5 37C17.8 36.2 15 32.8 15 28C15 25.2 16.2 22.8 17.8 20.6C18.4 19.8 17.7 18.7 16.8 19.2C14.6 21.8 14 25.4 14 29Z" 
+          fill="url(#pnNestDark)"/>
+
+    <!-- Flourishing Eco Leaf Canopy -->
+    <path d="M28.5 9C32.2 13.5 35 18.8 34.5 24C34.1 27.2 32.2 30 29 31.5C26.5 32.8 23.5 32.5 21.2 30.8C20.5 30.2 19.8 31.1 20.3 31.8C22.4 34.8 26 36.8 30 36.2C35.8 35.2 40.2 30.2 40.8 24.5C41.4 17.8 36.8 11.5 28.5 9Z" 
+          fill="url(#pnLeafDark)"/>
+
+    <!-- Secondary Sweet Sprout Leaf Accent -->
+    <path d="M28 9.5C23.2 10.8 18.8 15.2 18 20.5C20.5 19 23.5 18.5 26.2 19.2C27.8 16.5 28.2 13 28 9.5Z" 
+          fill="#34D399" opacity="0.95"/>
+
+    <!-- Cradled Baby Essence (Luminous Sunlit Pearl) -->
+    <circle cx="27.5" cy="27.5" r="4.3" fill="url(#pnBabyDark)"/>
+    <path d="M28.2 25C29.6 26 30.2 27.8 29.4 29.4C28.6 30.8 26.8 31.6 25.2 31C26.8 31.8 29 31 30 29.5C31 27.6 30.4 25.6 28.2 25Z" 
+          fill="#FFFFFF" opacity="0.75"/>
+  </g>
+
+  <!-- ─── REFINED MODERN WORDMARK (High-Contrast White & Cyan) ─── -->
+  <g transform="translate(68, 0)">
+    <!-- Primary Brand Title -->
+    <text x="0" y="34.5" class="pn-title-dark">
+      <tspan fill="#F8FAFC" font-weight="800">Pure</tspan><tspan fill="#38BDF8" font-weight="700">Nest</tspan>
+    </text>
+
+    <!-- Subtitle: ECO BABY REUSABLES in Luminous Cyan -->
+    <text x="0.5" y="49" class="pn-subtitle-dark" fill="#38BDF8">ECO BABY REUSABLES</text>
+  </g>
+</svg>

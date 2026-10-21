@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Master Brand Gradients for Favicon -->
+    <linearGradient id="favNest" x1="12%" y1="100%" x2="88%" y2="0%">
+      <stop offset="0%" stop-color="#1B659B"/>
+      <stop offset="50%" stop-color="#358ACD"/>
+      <stop offset="100%" stop-color="#58A6DF"/>
+    </linearGradient>
+
+    <linearGradient id="favLeaf" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D925A"/>
+      <stop offset="55%" stop-color="#48B478"/>
+      <stop offset="100%" stop-color="#7CD5C8"/>
+    </linearGradient>
+
+    <linearGradient id="favBaby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB38A"/>
+      <stop offset="100%" stop-color="#FF8E58"/>
+    </linearGradient>
+
+    <linearGradient id="favHalo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDF6FD"/>
+      <stop offset="100%" stop-color="#EAF8F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Favicon Container Foundation -->
+  <rect width="64" height="64" rx="20" fill="url(#favHalo)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="19.25" stroke="rgba(88, 166, 223, 0.35)" stroke-width="1.5"/>
+
+  <!-- Icon Geometry Centered at (32, 32) -->
+  <g transform="translate(4, 4)">
+    <!-- Nest Cradle Arc -->
+    <path d="M14 29C14 37.8 20.2 44.8 28.5 45C37.2 45.2 44.2 38.5 43.5 30.5C43 24.8 39.2 20.2 34.8 17C33.9 16.3 32.8 17.2 33.3 18.2C35.2 22 35.8 26.2 34.2 30.2C32.2 34.8 27.5 37.8 22.5 37C17.8 36.2 15 32.8 15 28C15 25.2 16.2 22.8 17.8 20.6C18.4 19.8 17.7 18.7 16.8 19.2C14.6 21.8 14 25.4 14 29Z" 
+          fill="url(#favNest)"/>
+
+    <!-- Eco Sprout Leaf Canopy -->
+    <path d="M28.5 9C32.2 13.5 35 18.8 34.5 24C34.1 27.2 32.2 30 29 31.5C26.5 32.8 23.5 32.5 21.2 30.8C20.5 30.2 19.8 31.1 20.3 31.8C22.4 34.8 26 36.8 30 36.2C35.8 35.2 40.2 30.2 40.8 24.5C41.4 17.8 36.8 11.5 28.5 9Z" 
+          fill="url(#favLeaf)"/>
+
+    <!-- Secondary Sprout Leaf Accent -->
+    <path d="M28 9.5C23.2 10.8 18.8 15.2 18 20.5C20.5 19 23.5 18.5 26.2 19.2C27.8 16.5 28.2 13 28 9.5Z" 
+          fill="#48B478" opacity="0.95"/>
+
+    <!-- Cradled Baby Pearl Core -->
+    <circle cx="27.5" cy="27.5" r="4.3" fill="url(#favBaby)"/>
+    <path d="M28.2 25C29.6 26 30.2 27.8 29.4 29.4C28.6 30.8 26.8 31.6 25.2 31C26.8 31.8 29 31 30 29.5C31 27.6 30.4 25.6 28.2 25Z" 
+          fill="#FFFFFF" opacity="0.7"/>
+  </g>
+</svg>
